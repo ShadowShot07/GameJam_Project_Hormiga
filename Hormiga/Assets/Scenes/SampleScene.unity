@@ -242,7 +242,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,8 +255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attenuationObject: {fileID: 1356395158}
-=======
->>>>>>> parent of 8a9594f (main)
 --- !u!1 &524233764
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,11 +339,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 =======
 >>>>>>> 8a9594f7ce31d89683530844afcf4a28de0a72da
-=======
->>>>>>> parent of 8a9594f (main)
 --- !u!1 &703266711
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,4 +797,3 @@ SceneRoots:
   - {fileID: 703266713}
   - {fileID: 1848455853}
   - {fileID: 1356395162}
-  - {fileID: 524233766}
