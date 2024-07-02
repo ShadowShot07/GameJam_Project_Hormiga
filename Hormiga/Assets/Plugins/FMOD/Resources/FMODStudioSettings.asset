@@ -401,7 +401,8 @@ MonoBehaviour:
   EncryptionKey: 
   ImportType: 0
   TargetAssetPath: FMODBanks
-  TargetBankFolder: D:\UsuariosHD\enlaz\ExercicisJocs\FMOD\MadNesst\Build
+  TargetBankFolder: D:\UsuariosHD\enlaz\ExercicisJocs\Unity\GameJam_Project_Hormiga\Hormiga\Assets\FMOD
+    banks
   EventLinkage: 0
   LoggingLevel: 2
   SpeakerModeSettings: []
