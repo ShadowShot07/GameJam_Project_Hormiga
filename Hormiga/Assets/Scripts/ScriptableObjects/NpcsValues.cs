@@ -10,18 +10,20 @@ public class NpcsValues : MonoBehaviour
 {
     [SerializeField]private NPCs npcValues;
     [SerializeField]private string npcName;
-    
+    [SerializeField] private string npcSprtName;
     private BoxCollider2D collider;
     private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
         npcName = npcValues.npcName;
+
+        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null) print(npcName + " has a sprite renderer.");
+
         spriteRenderer.sprite = npcValues.npcSprite;
-        if (spriteRenderer.sprite != null)
-        {
-            print("dfdfd");
-        }
+        if (spriteRenderer != null) print("Its sprite is " + spriteRenderer.sprite.name);
+
 
     }
 

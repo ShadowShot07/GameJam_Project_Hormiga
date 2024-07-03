@@ -49,6 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcValues: {fileID: 11400000, guid: 16aace8ec332f6746872ad867457fef3, type: 2}
   npcName: 
+  npcSprtName: 
 --- !u!50 &6990860361228225531
 Rigidbody2D:
   serializedVersion: 4
@@ -57,7 +58,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54379759769066511}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -162,7 +163,7 @@ SpriteRenderer:
   m_SortingLayerID: 1583856281
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 31ab5dbbf8e7b5c4aa377dfc8634b07a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

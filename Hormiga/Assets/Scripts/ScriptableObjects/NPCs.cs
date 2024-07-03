@@ -10,5 +10,4 @@ public class NPCs : ScriptableObject
 	public Animator npcAnm;
 	public bool inInYourTeam = false;
 
-	Rigidbody2D rb;
 }
