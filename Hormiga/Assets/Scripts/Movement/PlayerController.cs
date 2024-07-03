@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -27,6 +28,16 @@ public class PlayerController : MonoBehaviour
         _playerRB = GetComponent<Rigidbody2D>();
         _moveAction = _playerInput.actions["Move"];
         _interactionAction = _playerInput.actions["Action"];
+    }
+
+    private void Start()
+    {
+        _interactionAction.started += Interaction;     
+    }
+
+    private void Interaction(InputAction.CallbackContext context)
+    {
+        Debug.Log("estoy interactuando");
     }
 
     private void Update()
