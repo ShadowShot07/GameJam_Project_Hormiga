@@ -29,7 +29,6 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         mainTheme = CreateEventInstance(FmodEvents.instance.playMainTheme);
-        StartMusic();
     }
 
     public void StartMusic()
