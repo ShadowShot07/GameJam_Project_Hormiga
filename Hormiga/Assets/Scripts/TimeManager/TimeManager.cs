@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class TimeManager : MonoBehaviour
@@ -11,27 +8,33 @@ public class TimeManager : MonoBehaviour
     [SerializeField] int _thirstHourAngle;      
     [SerializeField] int _fourthHourAngle;      
 
-    private string FirthHour = TimeConstants.MORNING;
+    private string FirsthHour = TimeConstants.MORNING;
     private string SecondHour = TimeConstants.AFTERNOON;
     private string ThirthHour = TimeConstants.DUSK;
     private string FourthHour = TimeConstants.NIGHT;
 
     void Start()
     {
-        
+        ClockArrowMove(FirsthHour, _firstHourAngle);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        ClockArrowMove();
+        //ClockChange();
     }
 
-    private void ClockArrowMove()
+    private void ClockArrowMove(string hour, int angle)
     {
-        if (FirthHour == TimeConstants.MORNING) { _clockArrow.rotation = Quaternion.Euler(0, 0, _firstHourAngle); }
-        if (SecondHour == TimeConstants.AFTERNOON) { _clockArrow.rotation = Quaternion.Euler(0, 0, _secondHourAngle); }
-        if (ThirthHour == TimeConstants.DUSK) { _clockArrow.rotation = Quaternion.Euler(0, 0, _thirstHourAngle); }
-        if (FourthHour == TimeConstants.NIGHT) { _clockArrow.rotation = Quaternion.Euler(0, 0, _fourthHourAngle); }
+        if (hour == TimeConstants.MORNING) { _clockArrow.rotation = Quaternion.Euler(0, 0, angle); }
+        if (hour == TimeConstants.AFTERNOON) { _clockArrow.rotation = Quaternion.Euler(0, 0, angle); }
+        if (hour == TimeConstants.DUSK) { _clockArrow.rotation = Quaternion.Euler(0, 0, angle); }
+        if (hour == TimeConstants.NIGHT) { _clockArrow.rotation = Quaternion.Euler(0, 0, angle); }
+    }
+
+    private void ClockChange()
+    {
+        //if (mission complete) { ClockArrowMove(SecondHour, _secondHourAngle); }
+        //if (mission complete) { ClockArrowMove(ThirthHour, _thirstHourAngle); }
+        //if (mission complete) { ClockArrowMove(FourthHour, _fourthHourAngle); }
     }
 }
