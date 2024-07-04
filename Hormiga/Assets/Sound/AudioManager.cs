@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance { get; private set; }
 
     private EventInstance mainTheme;
+    private EventInstance footsteps;
 
     private void Awake()
     {
@@ -29,6 +30,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         mainTheme = CreateEventInstance(FmodEvents.instance.playMainTheme);
+        footsteps = CreateEventInstance(FmodEvents.instance.playFootstep);
     }
 
     public void StartMusic()
@@ -39,6 +41,11 @@ public class AudioManager : MonoBehaviour
     public void StopMusic()
     {
         mainTheme.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+
+    public void PlayFootstep()
+    {
+        footsteps.start();
     }
 
     public EventInstance CreateEventInstance(EventReference eventReference) 

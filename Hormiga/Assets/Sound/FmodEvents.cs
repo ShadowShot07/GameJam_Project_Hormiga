@@ -8,6 +8,9 @@ public class FmodEvents : MonoBehaviour
     [field: Header("Main Theme")]
     [field: SerializeField] public EventReference playMainTheme {get; private set;}
 
+    [field: Header("Footsteps")]
+    [field: SerializeField] public EventReference playFootstep { get; private set; }
+
     public static FmodEvents instance { get; private set; }
 
     private void Awake()
