@@ -294,26 +294,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_Quico
       objectReference: {fileID: 0}
-    - target: {fileID: 258108056628174210, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
-      propertyPath: dialogueLines.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 258108056628174210, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
-      propertyPath: dialogueLines.Array.data[0]
-      value: Miga miga miga
-      objectReference: {fileID: 0}
-    - target: {fileID: 258108056628174210, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
-      propertyPath: dialogueLines.Array.data[1]
-      value: Somo' laj' ormiga
-      objectReference: {fileID: 0}
-    - target: {fileID: 258108056628174210, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
-      propertyPath: dialogueLines.Array.data[2]
-      value: Miga miga miga
-      objectReference: {fileID: 0}
-    - target: {fileID: 258108056628174210, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
-      propertyPath: dialogueLines.Array.data[3]
-      value: Quiero seh' tu amiga
-      objectReference: {fileID: 0}
     - target: {fileID: 7125497993964643336, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
