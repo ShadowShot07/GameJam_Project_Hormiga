@@ -268,10 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d281b5b7ad62eec4e8a723ab9ec04341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueLines:
-  - God save the queeeenn...
-  - A fascist reignn.....
-  - Not a human beeinng....
+  dialogueLines: []
   dialoguePanel: {fileID: 3564853325765837898}
   dialogueTxt: {fileID: 8717080050377698792}
   dialogueStarted: 0
