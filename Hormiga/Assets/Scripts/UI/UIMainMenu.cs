@@ -16,14 +16,13 @@ public class UIMainMenu : MonoBehaviour
     [SerializeField] private GameObject _menuOptions;
     [SerializeField] private GameObject _menuCredits;
 
+
     void Start()
     {
-        _startGame.onClick.AddListener(StartGame);
-        _options.onClick.AddListener(StartOptions);
-        _credits.onClick.AddListener(StartCredits);
-        _closeGame.onClick.AddListener(CloseGame);
-        _optionsToMenu.onClick.AddListener(OptionsToMenu);
-        _creditsToMenu.onClick.AddListener(CreditsToMenu);
+        ActiveTrueFalse.ActiveTrue(_mainMenuCanvas);
+        ActiveTrueFalse.Activefalse(_menuOptions);
+        ActiveTrueFalse.Activefalse(_menuCredits);
+        Listeners();
     }
 
     private void StartGame()
@@ -33,30 +32,40 @@ public class UIMainMenu : MonoBehaviour
 
     private void StartOptions()
     {
-        _mainMenuCanvas.SetActive(false);
-        _menuOptions.SetActive(true);
+        ActiveTrueFalse.Activefalse(_mainMenuCanvas);
+        ActiveTrueFalse.ActiveTrue(_menuOptions);
     }
 
     private void StartCredits()
     {
-        _mainMenuCanvas.SetActive(false);
-        _menuCredits.SetActive(true);
-    }
-
-    private void CloseGame()
-    {
-        Application.Quit();
+        ActiveTrueFalse.Activefalse(_mainMenuCanvas);
+        ActiveTrueFalse.ActiveTrue(_menuCredits);
     }
 
     private void OptionsToMenu()
     {
-        _mainMenuCanvas.SetActive(true);
-        _menuOptions.SetActive(false);
+        ActiveTrueFalse.ActiveTrue(_mainMenuCanvas);
+        ActiveTrueFalse.Activefalse(_menuOptions);
     }
     
     private void CreditsToMenu()
     {
-        _mainMenuCanvas.SetActive(true);
-        _menuCredits.SetActive(false);
+        ActiveTrueFalse.ActiveTrue(_mainMenuCanvas);
+        ActiveTrueFalse.Activefalse(_menuCredits);
+    }
+
+    private void CloseGame()
+    {
+        ScenesManager.instance.ExitGame();
+    }
+
+    private void Listeners()
+    {
+        _startGame.onClick.AddListener(StartGame);
+        _options.onClick.AddListener(StartOptions);
+        _credits.onClick.AddListener(StartCredits);
+        _closeGame.onClick.AddListener(CloseGame);
+        _optionsToMenu.onClick.AddListener(OptionsToMenu);
+        _creditsToMenu.onClick.AddListener(CreditsToMenu);
     }
 }
