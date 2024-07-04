@@ -6,26 +6,12 @@ using UnityEngine.UI;
 using TMPro;
 public class TextCTRL : MonoBehaviour
 {
-    [TextArea(4, 6)] public string[] dialogueLines;
+    [TextArea(4 , 6)] public string[] dialogueLines;
     public GameObject dialoguePanel;
     public TMP_Text dialogueTxt;
     public bool dialogueStarted;
     int lineIndex;
 
-    void Awake()
-    {
-        if (gameObject.tag == "NPC")
-        {
-            dialogueLines = GetComponent<NpcsValues>().dialogueLines;
-
-            GameObject dialogueCanvas = GameObject.Instantiate(Resources.Load("DialogueCanvas"), transform.position, Quaternion.identity) as GameObject;
-
-            dialoguePanel = dialogueCanvas.transform.GetChild(0).gameObject;
-
-            dialogueTxt = dialoguePanel.transform.GetChild(0).gameObject.GetComponent<TMPro.TMP_Text>();
-        }
-
-    }
     void Update()
     {
 
@@ -74,19 +60,13 @@ public class TextCTRL : MonoBehaviour
     private IEnumerator ShowLine()
     {
         dialogueTxt.text = string.Empty;
-        if (dialogueLines != null)
-        {
-            foreach (char ch in dialogueLines[lineIndex])
-            {
-                dialogueTxt.text += ch;
 
-                yield return new WaitForSeconds(0.05f);
-            }
-            print("Sound finished");
-        }
-        else 
+        foreach(char ch in dialogueLines[lineIndex])
         {
-            print("dialogue is full");
+            dialogueTxt.text += ch;
+
+            yield return new WaitForSeconds(0.05f);
         }
+        print("Sound finished");
     }
 }

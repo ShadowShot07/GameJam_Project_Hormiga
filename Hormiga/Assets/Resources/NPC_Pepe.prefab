@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 6990860361228225531}
   - component: {fileID: 1886384585167549072}
   - component: {fileID: 6099764419127588276}
-  - component: {fileID: 7748717751179923803}
   m_Layer: 0
   m_Name: NPC_Pepe
   m_TagString: NPC
@@ -51,11 +50,6 @@ MonoBehaviour:
   npcValues: {fileID: 11400000, guid: 16aace8ec332f6746872ad867457fef3, type: 2}
   npcName: 
   npcSprtName: 
-  dialogueLines:
-  - Miga miga miga
-  - Somo' laj' ormiga
-  - Miga miga miga
-  - Quiero seh' tu amiga
 --- !u!50 &6990860361228225531
 Rigidbody2D:
   serializedVersion: 4
@@ -180,19 +174,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &7748717751179923803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54379759769066511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d281b5b7ad62eec4e8a723ab9ec04341, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueLines: []
-  dialoguePanel: {fileID: 0}
-  dialogueTxt: {fileID: 0}
-  dialogueStarted: 0
