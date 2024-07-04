@@ -13,18 +13,17 @@ public class NpcsValues : MonoBehaviour
     [SerializeField] private string npcSprtName;
     private BoxCollider2D collider;
     private SpriteRenderer spriteRenderer;
-    // Start is called before the first frame update
-    void Start()
+
+    void Awake()
     {
         npcName = npcValues.npcName;
 
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null) print(npcName + " has a sprite renderer.");
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = npcValues.npcSprite;
-        if (spriteRenderer != null) print("Its sprite is " + spriteRenderer.sprite.name);
 
-
+        collider = GetComponent<BoxCollider2D>();
+        collider.isTrigger = true;
+        collider.size = new Vector3(spriteRenderer.sprite.bounds.size.x + 1.5f , .5f , 1);
     }
 
 

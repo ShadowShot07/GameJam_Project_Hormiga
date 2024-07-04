@@ -33,6 +33,7 @@ public class TextCTRL : MonoBehaviour
 
     private void StartDialogue()
     {
+        print("Start sound");
         dialogueStarted = true;
         dialoguePanel.SetActive(true);
         lineIndex = 0;
@@ -42,6 +43,7 @@ public class TextCTRL : MonoBehaviour
 
     private void NexDialogueLine()
     {
+        print("Start sound");
         lineIndex++;
         if(lineIndex < dialogueLines.Length) //Current dialogue hasn't got its final line yet
         {
@@ -65,5 +67,6 @@ public class TextCTRL : MonoBehaviour
 
             yield return new WaitForSeconds(0.05f);
         }
+        print("Sound finished");
     }
 }

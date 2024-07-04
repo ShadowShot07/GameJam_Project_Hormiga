@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: New NP Cs
   m_EditorClassIdentifier: 
   npcName: Er' Quico
-  npcSprite: {fileID: 21300000, guid: d82c70bceeb271345be5351488aaa81e, type: 3}
+  npcSprite: {fileID: 21300000, guid: 899666a8311e38c4b9cae09de76dd2e2, type: 3}
   npcAnm: {fileID: 0}
   inInYourTeam: 0
