@@ -205,7 +205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2a0616725463b74b9b459c4bc1bf6eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< Updated upstream:Hormiga/Assets/Prefabs/Player.prefab
   _playerName: Pepito
   _playerSprite: {fileID: 0}
 --- !u!114 &4353726302336265884
@@ -257,11 +256,3 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
-=======
-  dialogueLines: []
-  dialogueBoxes:
-  - {fileID: 11400000, guid: 9fcdc1f07c89ded47a272dc445133247, type: 2}
-  dialoguePanel: {fileID: 0}
-  dialogueTxt: {fileID: 0}
-  dialogueStarted: 0
->>>>>>> Stashed changes:Hormiga/Assets/Resources/NPC_Pepe.prefab
