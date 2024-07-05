@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e40e541579d19942868d9ed3f147d1e
+guid: 2cc0a2e2da7907544b5030e274667309
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,127 +123,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ciclo_de_andar_mas_separacion_0
+      name: SPRITE-SHEET-PRINCESA_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 23
-        width: 295
-        height: 390
+        y: 0
+        width: 311
+        height: 373
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e2ef6cc03c996f44b0eea8f457a2d2c
-      internalID: -1293836885
+      spriteID: 4c0cf9422995106438bd152047fd7965
+      internalID: -729728963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ciclo_de_andar_mas_separacion_1
+      name: SPRITE-SHEET-PRINCESA_1
       rect:
         serializedVersion: 2
-        x: 343
-        y: 23
-        width: 295
-        height: 390
+        x: 311
+        y: 0
+        width: 311
+        height: 373
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8550813d4592f1a4a8c665d756ba1ab8
-      internalID: 146237787
+      spriteID: 4628824107c10c248b973b3de64c7e85
+      internalID: -1471087662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ciclo_de_andar_mas_separacion_2
+      name: SPRITE-SHEET-PRINCESA_2
       rect:
         serializedVersion: 2
-        x: 712
-        y: 23
-        width: 295
-        height: 390
+        x: 622
+        y: 0
+        width: 311
+        height: 373
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9c71ea81dfbe1a4a875babf76fd15c5
-      internalID: 2046619822
+      spriteID: 814085e602a2bf7488e1fb1df3846050
+      internalID: -1787608369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ciclo_de_andar_mas_separacion_3
+      name: SPRITE-SHEET-PRINCESA_3
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 23
-        width: 295
-        height: 390
+        x: 933
+        y: 0
+        width: 311
+        height: 373
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6312a4f810daaa04fa0c599efe2257ca
-      internalID: 933088259
+      spriteID: e8a86baa165f5bc4cb1324e1d8d54194
+      internalID: -721098906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ciclo_de_andar_mas_separacion_4
+      name: SPRITE-SHEET-PRINCESA_4
       rect:
         serializedVersion: 2
-        x: 1435
-        y: 23
-        width: 295
-        height: 390
+        x: 1244
+        y: 0
+        width: 311
+        height: 373
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77bfde9744a5b2e4285659784c87a433
-      internalID: -2064116791
+      spriteID: 9bd8d78e66300aa46aa65e870aa89851
+      internalID: -387869779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ciclo_de_andar_mas_separacion_5
+      name: SPRITE-SHEET-PRINCESA_5
       rect:
         serializedVersion: 2
-        x: 1805
-        y: 23
-        width: 295
-        height: 390
+        x: 1555
+        y: 0
+        width: 311
+        height: 373
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 279426719db195d40a5e911f273ada97
-      internalID: 2316313
+      spriteID: 1d989ace1e515ce4fbf4283f30e23c6b
+      internalID: 836695380
       vertices: []
       indices: 
       edges: []
@@ -259,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ciclo_de_andar_mas_separacion_0: -1293836885
-      ciclo_de_andar_mas_separacion_1: 146237787
-      ciclo_de_andar_mas_separacion_2: 2046619822
-      ciclo_de_andar_mas_separacion_3: 933088259
-      ciclo_de_andar_mas_separacion_4: -2064116791
-      ciclo_de_andar_mas_separacion_5: 2316313
+      SPRITE-SHEET-PRINCESA_0: -729728963
+      SPRITE-SHEET-PRINCESA_1: -1471087662
+      SPRITE-SHEET-PRINCESA_2: -1787608369
+      SPRITE-SHEET-PRINCESA_3: -721098906
+      SPRITE-SHEET-PRINCESA_4: -387869779
+      SPRITE-SHEET-PRINCESA_5: 836695380
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

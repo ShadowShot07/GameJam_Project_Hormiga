@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask _groundMask;
     [SerializeField] private Vector3 _boxDimension;
 
+    private Animator _playerAnimator;
     private bool _lookRight = true;
     private Rigidbody2D _playerRB;
     private Vector2 _playerDirection;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         _playerInput = GetComponent<PlayerInput>();
         _playerRB = GetComponent<Rigidbody2D>();
+        _playerAnimator = GetComponent<Animator>();
         _moveAction = _playerInput.actions["Move"];
         _interactionAction = _playerInput.actions["Action"];
     }
@@ -43,7 +45,7 @@ public class PlayerController : MonoBehaviour
     {
         _playerDirection = _moveAction.ReadValue<Vector2>();
         _grounded = Physics2D.OverlapBox(_groundController.position, _boxDimension, 0f, _groundMask);
-
+        
         RotatePlayer(_playerDirection.x);
     }
 
@@ -54,7 +56,11 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        if (_grounded) { _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, _playerRB.velocity.y); }
+        if (_grounded) 
+        { 
+            _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, _playerRB.velocity.y);
+            _playerAnimator.SetFloat("Horizontal", MathF.Abs(_playerDirection.x));
+        }
     }
 
     private void RotatePlayer(float x)
