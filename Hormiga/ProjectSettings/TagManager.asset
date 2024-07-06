@@ -9,6 +9,7 @@ TagManager:
   - PlayerInteractiveZone
   - PickUpObject
   - Climb
+  - FinishDay
   layers:
   - Default
   - TransparentFX

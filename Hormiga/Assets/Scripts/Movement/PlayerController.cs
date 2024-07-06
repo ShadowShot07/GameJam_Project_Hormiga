@@ -37,9 +37,13 @@ public class PlayerController : MonoBehaviour
     private ClimbInteractive _climbInteractive;
     private Transform _climbInteractable;
 
+    private FinishDay _finishDay;
+    private GameObject _finish;
+
     // Comprobar con que colisiona
     [SerializeField] private bool _isClimb;
     [SerializeField] private bool _isDropObject;
+    [SerializeField] private bool _isFinishDay;
 
     private void Awake()
     {
@@ -48,6 +52,9 @@ public class PlayerController : MonoBehaviour
 
         _climbInteractive = FindObjectOfType<ClimbInteractive>();
         _climbInteractable = _climbInteractive._arriba;
+
+        _finishDay = FindObjectOfType<FinishDay>();
+        _finish = _finishDay._object;
 
         _playerInput = GetComponent<PlayerInput>();
         _playerRB = GetComponent<Rigidbody2D>();
@@ -98,11 +105,29 @@ public class PlayerController : MonoBehaviour
         }
         else if (!_isClimb)
         {
-            _interactionAction.started += InteractionStopClimb;
+            _interactionAction.started -= InteractionClimb;
+        }
+    }
+
+    public void InteractionFinishDayPublic()
+    {
+        if (_isFinishDay)
+        {
+            _interactionAction.started += InteractionFinishDay;
+            _interactionAction.started -= InteractionStopClimb;
             _interactionAction.started -= InteractionClimb;
             _interactionAction.started -= InteractionDropObject;
             _interactionAction.started -= InteractionTakeObject;
         }
+        else if (!_isFinishDay)
+        {
+            _interactionAction.started -= InteractionFinishDay;
+        }
+    }
+
+    private void InteractionFinishDay(InputAction.CallbackContext context)
+    {
+        ScenesManager.instance.LoadNextScene();
     }
 
     private void InteractionClimb(InputAction.CallbackContext context)
@@ -187,6 +212,11 @@ public class PlayerController : MonoBehaviour
         {
             _isDropObject = false;
         }
+
+        if (collision.tag == "FinishDay")
+        {
+            _isFinishDay = true;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -200,6 +230,11 @@ public class PlayerController : MonoBehaviour
         {
             _isDropObject = false;
         }
+
+        if (collision.tag == "FinishDay")
+        {
+            _isFinishDay = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -212,6 +247,11 @@ public class PlayerController : MonoBehaviour
         if (collision.tag == "InteractiveObject")
         {
             _isDropObject = false;
+        }
+
+        if (collision.tag == "FinishDay")
+        {
+            _isFinishDay = false;
         }
     }
 }
