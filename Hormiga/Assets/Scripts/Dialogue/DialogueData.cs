@@ -10,6 +10,11 @@ public class DialogueData : ScriptableObject
     [SerializeField] private List<DialogueAnswerData> answers = new List<DialogueAnswerData>();
     [SerializeField] private string branchId;
 
+    public DialogueManager.Actors GetActorName()
+    {
+        return actorName;
+    }
+
     public string GetDialogue()
     {
         return dialogue;

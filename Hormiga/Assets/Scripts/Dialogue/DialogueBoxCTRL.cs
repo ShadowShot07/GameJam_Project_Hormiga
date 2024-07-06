@@ -11,6 +11,7 @@ public class DialogueBoxCTRL : MonoBehaviour
     public TMP_Text dialogueTxt;
     public bool dialogueStarted;
 
+    [SerializeField] private TMP_Text actorNameText;
     [SerializeField] private GameObject answerPanel;
     [SerializeField] private Button answer1Button;
     [SerializeField] private Button answer2Button;
@@ -85,7 +86,6 @@ public class DialogueBoxCTRL : MonoBehaviour
             this.transform.position = origin + new Vector3(0f, 10f);
             StartDialogue();
         }
-       
     }
 
     private void StartDialogue()
@@ -122,7 +122,6 @@ public class DialogueBoxCTRL : MonoBehaviour
         }
         else if (currentDialogueDataIndex >= currentDialogueSceneData.DialogueCount() - 3 && !isLastDialogue)
         {
-            print("LASTTTT");
             isLastDialogue = true;
             currentDialogueText = currentDialogueSceneData.GetConclusionDialogue(currentSuccessPoints).GetDialogue();
             StartCoroutine(ShowLine()); 
@@ -136,6 +135,7 @@ public class DialogueBoxCTRL : MonoBehaviour
 
     private IEnumerator ShowLine()
     {
+        actorNameText.text = DialogueManager.instance.actorNames_eng[(int)currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName()];
         dialogueTxt.text = string.Empty;
         if (currentDialogueText != null)
         {
