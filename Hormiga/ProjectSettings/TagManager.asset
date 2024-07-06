@@ -4,15 +4,20 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - NPC
+  - InteractiveObject
+  - InteractiveNPC
+  - PlayerInteractiveZone
+  - PickUpObject
+  - Climb
+  - FinishDay
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Suelo
   - Water
   - UI
-  - 
+  - Climb
   - 
   - 
   - 
