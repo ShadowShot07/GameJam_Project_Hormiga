@@ -133,7 +133,7 @@ public class PlayerController : MonoBehaviour
 
     private void InteractionClimb(InputAction.CallbackContext context)
     {
-        _playerRB.velocity = (_climbInteractable.transform.position - transform.position).normalized * _playerSpeedClimb;
+        
         _playerRB.gravityScale = 0;
         _playerAnimator.SetBool("Climb", true);
     }
