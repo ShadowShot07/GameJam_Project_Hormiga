@@ -27,7 +27,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     // Cambiar a diccionario con 3 idiomas
-    public string[] actorNames_eng = new string[] { "Queen", "The Princess", "NPC Ants", "Twice Soldier Ant", "Hystericant", "Nanny Ant", "Sciantist" };
+    public string[] actorNames_eng = new string[] { "Queen", "The Princess", "NPC Ants", "Twice Soldier Ant", "Hystericant", "Nanny Ant", "Sciantist", "Wide Exoskeleton" };
 
 
     public static DialogueManager instance { get; private set; }
