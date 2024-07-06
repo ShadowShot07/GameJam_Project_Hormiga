@@ -1,0 +1,54 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ClimbInteractive : MonoBehaviour, IInteractuable
+{
+    [SerializeField] private GameObject _canvasObject;
+    [SerializeField] public Transform _arriba;
+
+    private PlayerController _playerController;
+    [SerializeField ]private bool _isActive;
+
+    private Movement _inputActions;
+    private void Awake()
+    {
+        _playerController = FindObjectOfType<PlayerController>();
+    }
+
+    void Update()
+    {
+        Interactuar();
+    }
+
+    private void UsarEscalera()
+    {
+        if (_isActive)
+        {
+            _playerController.InteractionClimbPublic();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            ActiveTrueFalse.ActiveTrue(_canvasObject);
+            _isActive = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            ActiveTrueFalse.Activefalse(_canvasObject);
+            _isActive = false;
+        }
+    }
+
+    public void Interactuar()
+    {
+        UsarEscalera();
+    }
+}
