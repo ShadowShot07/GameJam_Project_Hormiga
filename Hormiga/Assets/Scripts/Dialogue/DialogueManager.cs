@@ -22,7 +22,8 @@ public class DialogueManager : MonoBehaviour
         TWICE_SOLDIER_ANT,
         HYSTERICANT,
         NANNY_ANT,
-        SCIANTIST
+        SCIANTIST,
+        WIDE_EXOSKELETON
     }
 
     // Cambiar a diccionario con 3 idiomas

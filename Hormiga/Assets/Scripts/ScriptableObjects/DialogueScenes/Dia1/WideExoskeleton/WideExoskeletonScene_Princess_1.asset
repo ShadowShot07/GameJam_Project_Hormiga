@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83d8b3c763ba5cf4e89457405af4381a, type: 3}
-  m_Name: Day1FinaleScene_Princess_2
+  m_Name: WideExoskeletonScene_Princess_1
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: " \u201CI did so many things today... I should write it down on my diary
-    and go to sleep. I don't want to leave my head\"\r          "
-  answers: []
+  dialogue: 
+  answers:
+  - {fileID: 11400000, guid: 6f9650a3dbf7d0a4badc795d0a8fec8a, type: 2}
+  - {fileID: 11400000, guid: 12d45655b0eb72d43a00aaf5fba63c29, type: 2}
   branchId: 

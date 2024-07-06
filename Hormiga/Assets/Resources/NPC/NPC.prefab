@@ -47,7 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 905084836833ef84e9dfda967f934ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcValues: {fileID: 11400000, guid: 16aace8ec332f6746872ad867457fef3, type: 2}
+  npcValues: {fileID: 0}
+  dialogueScenes: {fileID: 0}
   npcName: 
   npcSprtName: 
 --- !u!50 &6990860361228225531

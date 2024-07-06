@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
+[RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(BoxCollider2D))]
-[RequireComponent(typeof(SpriteRenderer))]
 
 public class NpcsValues : MonoBehaviour
 {
-    [SerializeField]private NPC_Data npcValues;
-    
-    [SerializeField]private string npcName;
-    [SerializeField] private string npcSprtName;
+    [SerializeField] private NPC_Data npcValues;
+    [SerializeField] private DialogueSceneData dialogueScenes;
+    [SerializeField] private string npcName;
 
     private BoxCollider2D collider;
     private SpriteRenderer spriteRenderer;

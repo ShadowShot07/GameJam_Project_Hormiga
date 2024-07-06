@@ -6,7 +6,7 @@ using UnityEngine;
 public class DialogueData : ScriptableObject
 {
     [SerializeField] private DialogueManager.Actors actorName;
-    [SerializeField] [TextArea] private string dialogue;
+    [SerializeField] [TextArea(6 , 6)] private string dialogue;
     [SerializeField] private List<DialogueAnswerData> answers = new List<DialogueAnswerData>();
     [SerializeField] private string branchId;
 
