@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2cc0a2e2da7907544b5030e274667309
+guid: cc846688a881dc2438c82d4cedebfb3c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPRITE-SHEET-PRINCESA_0
+      name: ciclo_de_llevar_cosas_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0cf9422995106438bd152047fd7965
-      internalID: -729728963
+      spriteID: 4ae265fde5cfc074790cf1cecaed7583
+      internalID: 305911101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITE-SHEET-PRINCESA_1
+      name: ciclo_de_llevar_cosas_1
       rect:
         serializedVersion: 2
         x: 311
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4628824107c10c248b973b3de64c7e85
-      internalID: -1471087662
+      spriteID: 6044b1b22803cd24aa9df8b50b149b54
+      internalID: -2086565682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITE-SHEET-PRINCESA_2
+      name: ciclo_de_llevar_cosas_2
       rect:
         serializedVersion: 2
         x: 622
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 814085e602a2bf7488e1fb1df3846050
-      internalID: -1787608369
+      spriteID: e4951bc5c7a74384c9f2a316b1162d78
+      internalID: 587176477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITE-SHEET-PRINCESA_3
+      name: ciclo_de_llevar_cosas_3
       rect:
         serializedVersion: 2
         x: 933
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8a86baa165f5bc4cb1324e1d8d54194
-      internalID: -721098906
+      spriteID: 05e803928afdf564c8a4136caebf4d0d
+      internalID: 195837742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITE-SHEET-PRINCESA_4
+      name: ciclo_de_llevar_cosas_4
       rect:
         serializedVersion: 2
         x: 1244
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bd8d78e66300aa46aa65e870aa89851
-      internalID: -387869779
+      spriteID: 10a00fbc8453ef947af8f66dcc9e3778
+      internalID: -1555729630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPRITE-SHEET-PRINCESA_5
+      name: ciclo_de_llevar_cosas_5
       rect:
         serializedVersion: 2
         x: 1555
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d989ace1e515ce4fbf4283f30e23c6b
-      internalID: 836695380
+      spriteID: 1ab29b9b8b2e4964e8947ad4702b07a8
+      internalID: 1904143636
       vertices: []
       indices: 
       edges: []
@@ -259,12 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SPRITE-SHEET-PRINCESA_0: -729728963
-      SPRITE-SHEET-PRINCESA_1: -1471087662
-      SPRITE-SHEET-PRINCESA_2: -1787608369
-      SPRITE-SHEET-PRINCESA_3: -721098906
-      SPRITE-SHEET-PRINCESA_4: -387869779
-      SPRITE-SHEET-PRINCESA_5: 836695380
+      ciclo_de_llevar_cosas_0: 305911101
+      ciclo_de_llevar_cosas_1: -2086565682
+      ciclo_de_llevar_cosas_2: 587176477
+      ciclo_de_llevar_cosas_3: 195837742
+      ciclo_de_llevar_cosas_4: -1555729630
+      ciclo_de_llevar_cosas_5: 1904143636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
