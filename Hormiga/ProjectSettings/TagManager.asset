@@ -3,15 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - InteractiveObject
+  - InteractiveNPC
+  - PlayerInteractiveZone
+  - PickUpObject
+  - Climb
+  - FinishDay
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Suelo
   - Water
   - UI
-  - 
+  - Climb
   - 
   - 
   - 
@@ -40,4 +46,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Characters
+    uniqueID: 1583856281
     locked: 0

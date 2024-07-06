@@ -14,20 +14,10 @@ PluginImporter:
   - first:
       Any: 
     second:
-      enabled: 0
       settings: {}
   - first:
       Editor: Editor
     second:
-      enabled: 1
-      settings:
-        CPU: x86_64
-        OS: Windows
-  - first:
-      Standalone: Win64
-    second:
-      enabled: 1
-      settings: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
