@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
         _climbInteractable = _climbInteractive._arriba;
 
         _finishDay = FindObjectOfType<FinishDay>();
-        _finish = _finishDay._object;
+        _finish = _finishDay._objectBed;
 
         _playerInput = GetComponent<PlayerInput>();
         _playerRB = GetComponent<Rigidbody2D>();
@@ -99,9 +99,6 @@ public class PlayerController : MonoBehaviour
         if (_isClimb)
         {
             _interactionAction.started += InteractionClimb;
-            _interactionAction.started -= InteractionDropObject;
-            _interactionAction.started -= InteractionTakeObject;
-            _interactionAction.started -= InteractionStopClimb;
         }
         else if (!_isClimb)
         {
@@ -119,7 +116,7 @@ public class PlayerController : MonoBehaviour
             _interactionAction.started -= InteractionDropObject;
             _interactionAction.started -= InteractionTakeObject;
         }
-        else if (!_isFinishDay)
+        if (!_isFinishDay)
         {
             _interactionAction.started -= InteractionFinishDay;
         }
@@ -132,11 +129,9 @@ public class PlayerController : MonoBehaviour
 
     private void InteractionClimb(InputAction.CallbackContext context)
     {
-        //_player.transform.position = Vector2.MoveTowards(_player.transform.position, _climbInteractable.position, _playerSpeed * Time.deltaTime);
-        
-        //_playerRB.velocity = (_climbInteractable.transform.position - transform.position).normalized * _playerSpeedClimb;
-        //_playerRB.gravityScale = 0;
-        //_playerAnimator.SetBool("Climb", true);
+        _playerRB.velocity = (_climbInteractable.transform.position - transform.position).normalized * _playerSpeedClimb;
+        _playerRB.gravityScale = 0;
+        _playerAnimator.SetBool("Climb", true);
     }
 
     private void InteractionStopClimb(InputAction.CallbackContext context)
@@ -166,13 +161,8 @@ public class PlayerController : MonoBehaviour
     {
         if (_grounded) 
         {
-            /*if (transform.position == _climbInteractable.transform.position)
-            {*/
-                _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, _playerRB.velocity.y);
-                _playerAnimator.SetFloat("Horizontal", MathF.Abs(_playerDirection.x));
-                _playerRB.gravityScale = 1;
-                _playerAnimator.SetBool("Climb", false);
-            //}
+            _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, _playerRB.velocity.y);
+            _playerAnimator.SetFloat("Horizontal", MathF.Abs(_playerDirection.x));
         }
     }
 
@@ -211,11 +201,6 @@ public class PlayerController : MonoBehaviour
         if (collision.tag == "InteractiveObject")
         {
             _isDropObject = false;
-        }
-
-        if (collision.tag == "FinishDay")
-        {
-            _isFinishDay = true;
         }
     }
 

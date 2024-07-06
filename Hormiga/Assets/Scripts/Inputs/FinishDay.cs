@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class FinishDay : MonoBehaviour, IInteractuable
 {
-    [SerializeField] public GameObject _object;
+    [SerializeField] public GameObject _objectBed;
     [SerializeField] private GameObject _canvasObject;
 
     private PlayerController _playerController;
-    private bool _isActive;
+    [SerializeField] private bool _isActive;
 
     private void Awake()
     {

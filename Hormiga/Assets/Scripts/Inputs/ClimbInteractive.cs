@@ -10,7 +10,6 @@ public class ClimbInteractive : MonoBehaviour, IInteractuable
     private PlayerController _playerController;
     [SerializeField ]private bool _isActive;
 
-    private Movement _inputActions;
     private void Awake()
     {
         _playerController = FindObjectOfType<PlayerController>();
@@ -24,6 +23,10 @@ public class ClimbInteractive : MonoBehaviour, IInteractuable
     private void UsarEscalera()
     {
         if (_isActive)
+        {
+            _playerController.InteractionClimbPublic();
+        }
+        else
         {
             _playerController.InteractionClimbPublic();
         }
