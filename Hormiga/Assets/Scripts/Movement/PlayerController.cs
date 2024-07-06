@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Velocidad del jugador")]  
     [SerializeField] private float _playerSpeed;
+    [SerializeField] private float _playerSpeedClimb;
 
     [Header("Controlador de Suelo")]
     [SerializeField] private Transform _groundController;
@@ -106,8 +107,11 @@ public class PlayerController : MonoBehaviour
 
     private void InteractionClimb(InputAction.CallbackContext context)
     {
-        _player.transform.position = Vector2.MoveTowards(_player.transform.position, _climbInteractable.position, _playerSpeed * Time.deltaTime);
-        _playerAnimator.SetBool("Climb", true);
+        //_player.transform.position = Vector2.MoveTowards(_player.transform.position, _climbInteractable.position, _playerSpeed * Time.deltaTime);
+        
+        //_playerRB.velocity = (_climbInteractable.transform.position - transform.position).normalized * _playerSpeedClimb;
+        //_playerRB.gravityScale = 0;
+        //_playerAnimator.SetBool("Climb", true);
     }
 
     private void InteractionStopClimb(InputAction.CallbackContext context)
@@ -137,8 +141,13 @@ public class PlayerController : MonoBehaviour
     {
         if (_grounded) 
         {
-            _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, _playerRB.velocity.y);
-            _playerAnimator.SetFloat("Horizontal", MathF.Abs(_playerDirection.x));
+            /*if (transform.position == _climbInteractable.transform.position)
+            {*/
+                _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, _playerRB.velocity.y);
+                _playerAnimator.SetFloat("Horizontal", MathF.Abs(_playerDirection.x));
+                _playerRB.gravityScale = 1;
+                _playerAnimator.SetBool("Climb", false);
+            //}
         }
     }
 
