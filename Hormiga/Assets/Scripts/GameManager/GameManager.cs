@@ -100,14 +100,11 @@ public class GameManager : MonoBehaviour
         /*if(actor.TryGetComponent<NPC>(out NPC npc))
         {
             npc.SetQuestResolution(isCurrentQuestSucceed);
-        }*/
-        
+        }*/ 
     }
 
     private void ShowQuestUI(QuestData quest)
     {
         // If Quest is timed, Show and Start timer
     }
-
-
 }
