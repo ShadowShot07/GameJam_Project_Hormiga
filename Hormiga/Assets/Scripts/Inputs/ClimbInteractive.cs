@@ -28,7 +28,7 @@ public class ClimbInteractive : MonoBehaviour, IInteractuable
         }
         else
         {
-            _playerController.InteractionClimbPublic();
+            _playerController.InteractionClimbStopPublic();
         }
     }
 

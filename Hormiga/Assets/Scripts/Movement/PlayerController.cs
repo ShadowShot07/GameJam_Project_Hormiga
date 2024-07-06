@@ -100,7 +100,11 @@ public class PlayerController : MonoBehaviour
         {
             _interactionAction.started += InteractionClimb;
         }
-        else if (!_isClimb)
+    }
+
+    public void InteractionClimbStopPublic()
+    {
+        if (!_isClimb)
         {
             _interactionAction.started -= InteractionClimb;
         }
