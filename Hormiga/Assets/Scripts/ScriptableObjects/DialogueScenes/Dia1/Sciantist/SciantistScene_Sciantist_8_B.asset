@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83d8b3c763ba5cf4e89457405af4381a, type: 3}
-  m_Name: SciantistScene_Sciantist_5_A
+  m_Name: SciantistScene_Sciantist_8_B
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201COW, MARY, I\xB4M GONNA PISS MYSELF\u201D"
+  dialogue: "\"I\xB4m gonna go look for another paper-reader, thanks\u201D"
   answers: []
-  branchId: A
+  branchId: B

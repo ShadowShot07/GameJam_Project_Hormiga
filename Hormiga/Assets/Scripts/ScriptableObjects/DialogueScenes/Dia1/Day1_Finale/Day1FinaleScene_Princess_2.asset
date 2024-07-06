@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eddd342595f92644e94b96aaba85612f, type: 3}
-  m_Name: New NP Cs
+  m_Script: {fileID: 11500000, guid: 83d8b3c763ba5cf4e89457405af4381a, type: 3}
+  m_Name: Day1FinaleScene_Princess_2
   m_EditorClassIdentifier: 
-  npcName: Er' Quico
-  npcSprite: {fileID: 21300000, guid: 899666a8311e38c4b9cae09de76dd2e2, type: 3}
-  npcAnm: {fileID: 0}
-  inInYourTeam: 0
+  actorName: 1
+  dialogue: "\u201CI\xB4m so tired, I should probably go to sleep soon\u201C"
+  answers: []
+  branchId: 
