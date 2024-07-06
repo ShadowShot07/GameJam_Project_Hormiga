@@ -13,34 +13,14 @@ public class ObjectInteract : MonoBehaviour, IInteractuable
         _playerController = FindObjectOfType<PlayerController>();
     }
 
-    void Update()
-    {
-        Interactuar();
-    }
-
-    private void CogerObjeto()
+    public void Interactuar(PlayerController player)
     {
         if (_isActive)
         {
-            _playerController.InteractionObjectPublic();
-
-            if (_object.tag == "PickUpObject")
-            {
-                ActiveTrueFalse.Activefalse(_canvasObject);
-            }
-        }
-    }
-
-    private void SoltarObjecto()
-    {
-        if (_isActive)
-        {
-            _playerController.InteractionObjectPublic();
-
-            if ( _object.tag == "InteractiveObject")
-            {
-                ActiveTrueFalse.ActiveTrue(_canvasObject);
-            }
+            transform.SetParent(player._playerClamp);
+            transform.position = player._playerClamp.position;
+            GetComponent<Rigidbody2D>().isKinematic = true;
+            player._playerAnimator.SetBool("TakeObject", true);
         }
     }
 
@@ -60,11 +40,5 @@ public class ObjectInteract : MonoBehaviour, IInteractuable
             ActiveTrueFalse.Activefalse(_canvasObject);
             _isActive = false;
         }
-    }
-
-    public void Interactuar()
-    {
-        CogerObjeto();
-        SoltarObjecto();
     }
 }

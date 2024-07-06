@@ -15,21 +15,10 @@ public class ClimbInteractive : MonoBehaviour, IInteractuable
         _playerController = FindObjectOfType<PlayerController>();
     }
 
-    void Update()
-    {
-        Interactuar();
-    }
 
     private void UsarEscalera()
     {
-        if (_isActive)
-        {
-            _playerController.InteractionClimbPublic();
-        }
-        else
-        {
-            _playerController.InteractionClimbStopPublic();
-        }
+        
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -50,7 +39,7 @@ public class ClimbInteractive : MonoBehaviour, IInteractuable
         }
     }
 
-    public void Interactuar()
+    public void Interactuar(PlayerController player)
     {
         UsarEscalera();
     }

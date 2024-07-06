@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FinishDay : MonoBehaviour, IInteractuable
 {
-    [SerializeField] public GameObject _objectBed;
+    [SerializeField] private GameObject _objectBed;
     [SerializeField] private GameObject _canvasObject;
 
     private PlayerController _playerController;
@@ -15,17 +13,9 @@ public class FinishDay : MonoBehaviour, IInteractuable
         _playerController = FindObjectOfType<PlayerController>();
     }
 
-    void Update()
-    {
-        Interactuar();
-    }
-
     private void PasarDia()
     {
-        if (_isActive)
-        {
-            _playerController.InteractionFinishDayPublic();
-        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -46,7 +36,7 @@ public class FinishDay : MonoBehaviour, IInteractuable
         }
     }
 
-    public void Interactuar()
+    public void Interactuar(PlayerController playerController)
     {
         PasarDia();
     }
