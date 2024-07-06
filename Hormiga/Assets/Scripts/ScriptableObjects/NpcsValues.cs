@@ -9,9 +9,9 @@ using UnityEngine;
 
 public class NpcsValues : MonoBehaviour
 {
+    [SerializeField] private string npcName;
     [SerializeField] private NPC_Data npcValues;
     [SerializeField] private DialogueSceneData dialogueScenes;
-    [SerializeField] private string npcName;
 
     private BoxCollider2D collider;
     private SpriteRenderer spriteRenderer;

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_12_B
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CWell... It\xB4s the only thing that comes to my mind\u201D\r"
+  dialogue: "\u201CAlthough... It makes me feel worst if you\xB4re only seeing me
+    for my weight...\u201D\r\r"
   answers: []
-  branchId: A
+  branchId: B
