@@ -36,7 +36,7 @@ public class TextCTRL : MonoBehaviour
                 StartDialogue();
             }else if(dialogueTxt.text == dialogueLines[lineIndex])
             {
-                NexDialogueLine();
+                NextDialogueLine();
             }else
             {
                 StopAllCoroutines();
@@ -55,7 +55,7 @@ public class TextCTRL : MonoBehaviour
         StartCoroutine(ShowLine());
     }
 
-    private void NexDialogueLine()
+    private void NextDialogueLine()
     {
         print("Start sound");
         lineIndex++;
