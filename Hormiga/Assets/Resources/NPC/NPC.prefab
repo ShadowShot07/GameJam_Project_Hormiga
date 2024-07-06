@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7125497993964643336}
   - component: {fileID: 258108056628174210}
-  - component: {fileID: 6990860361228225531}
   - component: {fileID: 1886384585167549072}
   - component: {fileID: 6099764419127588276}
   m_Layer: 0
@@ -47,37 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 905084836833ef84e9dfda967f934ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcValues: {fileID: 0}
-  dialogueScenes: {fileID: 0}
   npcName: 
-  npcSprtName: 
---- !u!50 &6990860361228225531
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54379759769066511}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0.5
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  npcValues: {fileID: 11400000, guid: 1c5af2568b68d6047abfdeddfa448686, type: 2}
+  dialogueScene: {fileID: 11400000, guid: 9b09e476a8bce414b88b57287777f9a5, type: 2}
 --- !u!61 &1886384585167549072
 BoxCollider2D:
   m_ObjectHideFlags: 0
