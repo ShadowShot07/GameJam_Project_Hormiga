@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_2
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: " \u201CI did so many things today... I should write it down on my diary
-    and go to sleep. I don't want to leave my head\"\r          "
+  dialogue: "\u201CTomorrow\xB4s the revolution... I hope it works\u201D\r\r          "
   answers: []
   branchId: 

@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83d8b3c763ba5cf4e89457405af4381a, type: 3}
-  m_Name: WideExoskeletonScene_WideExoskeleton_5
+  m_Name: WideExoskeletonScene_Princess_6
   m_EditorClassIdentifier: 
-  actorName: 7
-  dialogue: "\u201CI used to work as Carpenter\xB4s helper... Now they don\xB4t let
-    me\"\r\r"
-  answers: []
+  actorName: 1
+  dialogue: "\u201CBut there has to be something that you are better than any other
+    ant...\r\nWhat can you do?\u201D\r"
+  answers:
+  - {fileID: 11400000, guid: 41795c8fbf084614e912fb5690e7d22b, type: 2}
+  - {fileID: 11400000, guid: e86ba18e6651bb24685c66d973951e52, type: 2}
   branchId: 

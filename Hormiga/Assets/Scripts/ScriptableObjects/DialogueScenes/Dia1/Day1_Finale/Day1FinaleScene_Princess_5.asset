@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83d8b3c763ba5cf4e89457405af4381a, type: 3}
-  m_Name: WideExoskeletonScene_WideExoskeleton_5
+  m_Name: Day1FinaleScene_Princess_5
   m_EditorClassIdentifier: 
-  actorName: 7
-  dialogue: "\u201CI used to work as Carpenter\xB4s helper... Now they don\xB4t let
-    me\"\r\r"
+  actorName: 1
+  dialogue: "\"In case they\xB4re not there... I have no other than accepting my
+    moher\xB4s orders and fulfill the punishment\"\r\r          "
   answers: []
   branchId: 

@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83d8b3c763ba5cf4e89457405af4381a, type: 3}
-  m_Name: WideExoskeletonScene_WideExoskeleton_5
+  m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
+  m_Name: Answer_6_B
   m_EditorClassIdentifier: 
-  actorName: 7
-  dialogue: "\u201CI used to work as Carpenter\xB4s helper... Now they don\xB4t let
-    me\"\r\r"
-  answers: []
-  branchId: 
+  answerText: "[Doubt] \u201CEven if I don\xB4t think there\xB4s anything... There
+    has to be something... Right?\u201D\r"
+  answerValue: 0
