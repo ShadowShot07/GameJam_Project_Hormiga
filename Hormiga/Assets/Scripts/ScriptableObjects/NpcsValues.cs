@@ -8,9 +8,10 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class NpcsValues : MonoBehaviour
 {
-    [SerializeField]private NPCs npcValues;
-    [SerializeField]private string npcName;
-    [SerializeField] private string npcSprtName;
+    [SerializeField] private string npcName;
+    [SerializeField]private NPC_Data npcValues;
+    [SerializeField] private DialogueSceneData dialogueScene;
+    
     private BoxCollider2D collider;
     private SpriteRenderer spriteRenderer;
 

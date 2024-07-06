@@ -1166,6 +1166,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1c5af2568b68d6047abfdeddfa448686, type: 2}
     - target: {fileID: 258108056628174210, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
+      propertyPath: dialogueScene
+      value: 
+      objectReference: {fileID: 11400000, guid: 9b09e476a8bce414b88b57287777f9a5, type: 2}
+    - target: {fileID: 258108056628174210, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
       propertyPath: dialogueScenes
       value: 
       objectReference: {fileID: 11400000, guid: 9b09e476a8bce414b88b57287777f9a5, type: 2}
