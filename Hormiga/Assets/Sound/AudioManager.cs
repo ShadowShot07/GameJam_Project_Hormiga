@@ -7,8 +7,17 @@ using FMOD.Studio;
 public class AudioManager : MonoBehaviour
 {
     private EventInstance mainTheme;
+    private EventInstance gameTheme;
     private EventInstance footsteps;
     private EventInstance climb;
+    private EventInstance crown;
+    private EventInstance voice_princess;
+    private EventInstance voice_twiceSlodierAnt;
+    private EventInstance voice_Scientist;
+    private EventInstance voice_hystericant;
+    private EventInstance voice_wideExoAnt;
+    private EventInstance uiAccept;
+    private EventInstance uiCancel;
 
     [Header("Volume")]
     [Range(0, 1)]
@@ -55,6 +64,15 @@ public class AudioManager : MonoBehaviour
         mainTheme = CreateEventInstance(FmodEvents.instance.playMainTheme);
         footsteps = CreateEventInstance(FmodEvents.instance.playFootstep);
         climb = CreateEventInstance(FmodEvents.instance.playClimbing);
+        crown = CreateEventInstance(FmodEvents.instance.playCorona);
+        gameTheme = CreateEventInstance(FmodEvents.instance.playGameTheme);
+        voice_princess = CreateEventInstance(FmodEvents.instance.playPrincessVoice);
+        voice_twiceSlodierAnt = CreateEventInstance(FmodEvents.instance.playTwiceSoldierVoice);
+        voice_Scientist = CreateEventInstance(FmodEvents.instance.playSciantistVoice);
+        voice_hystericant = CreateEventInstance(FmodEvents.instance.playHystericantVoice);
+        voice_wideExoAnt = CreateEventInstance(FmodEvents.instance.playWideExoAntVoice);
+        uiAccept = CreateEventInstance(FmodEvents.instance.playUIAccept);
+        uiCancel = CreateEventInstance(FmodEvents.instance.playUICancel);
     }
 
     public void StartMusic()
@@ -66,6 +84,141 @@ public class AudioManager : MonoBehaviour
     {
         mainTheme.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
+    public void StartGameMusic()
+    {
+        gameTheme.start();
+    }
+
+    public void StopGameMusic()
+    {
+        gameTheme.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
+
+    public void StartVoice(DialogueManager.Actors actor)
+    {
+        switch (actor) 
+        {
+            case DialogueManager.Actors.PRINCESS:
+
+                voice_princess.start();
+                break;
+
+            case DialogueManager.Actors.TWICE_SOLDIER_ANT:
+                
+                voice_twiceSlodierAnt.start();
+                break;
+
+            case DialogueManager.Actors.SCIANTIST:
+
+                voice_Scientist.start();
+                break;
+
+            case DialogueManager.Actors.HYSTERICANT:
+
+                voice_hystericant.start();
+                break;
+
+            case DialogueManager.Actors.WIDE_EXOSKELETON:
+
+                voice_wideExoAnt.start();
+                break;
+        }
+        
+    }
+
+    public void PauseVoice(DialogueManager.Actors actor)
+    {
+        switch (actor)
+        {
+            case DialogueManager.Actors.PRINCESS:
+
+                voice_princess.setPaused(true);
+                break;
+
+            case DialogueManager.Actors.TWICE_SOLDIER_ANT:
+
+                voice_twiceSlodierAnt.setPaused(true);
+                break;
+
+            case DialogueManager.Actors.SCIANTIST:
+
+                voice_Scientist.setPaused(true);
+                break;
+
+            case DialogueManager.Actors.HYSTERICANT:
+
+                voice_hystericant.setPaused(true);
+                break;
+
+            case DialogueManager.Actors.WIDE_EXOSKELETON:
+
+                voice_wideExoAnt.setPaused(true);
+                break;
+        }
+    }
+
+    public void UnPauseVoice(DialogueManager.Actors actor)
+    {
+        switch (actor)
+        {
+            case DialogueManager.Actors.PRINCESS:
+
+                voice_princess.setPaused(false);
+                break;
+
+            case DialogueManager.Actors.TWICE_SOLDIER_ANT:
+
+                voice_twiceSlodierAnt.setPaused(false);
+                break;
+
+            case DialogueManager.Actors.SCIANTIST:
+
+                voice_Scientist.setPaused(false);
+                break;
+
+            case DialogueManager.Actors.HYSTERICANT:
+
+                voice_hystericant.setPaused(false);
+                break;
+
+            case DialogueManager.Actors.WIDE_EXOSKELETON:
+
+                voice_wideExoAnt.setPaused(false);
+                break;
+        }
+    }
+
+    public void StopVoice(DialogueManager.Actors actor)
+    {
+        switch (actor)
+        {
+            case DialogueManager.Actors.PRINCESS:
+
+                voice_princess.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                break;
+
+            case DialogueManager.Actors.TWICE_SOLDIER_ANT:
+
+                voice_twiceSlodierAnt.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                break;
+
+            case DialogueManager.Actors.SCIANTIST:
+
+                voice_Scientist.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                break;
+
+            case DialogueManager.Actors.HYSTERICANT:
+
+                voice_hystericant.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                break;
+
+            case DialogueManager.Actors.WIDE_EXOSKELETON:
+
+                voice_wideExoAnt.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                break;
+        }
+        gameTheme.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    }
 
     public void PlayFootstep()
     {
@@ -75,6 +228,21 @@ public class AudioManager : MonoBehaviour
     public void PlayClimbing()
     {
         climb.start();
+    }
+
+    public void PlayCorona()
+    {
+        crown.start();
+    }
+
+    public void PlayUIAccept()
+    {
+        uiAccept.start();
+    }
+
+    public void PlayUICancel()
+    {
+        uiCancel.start();
     }
 
     public EventInstance CreateEventInstance(EventReference eventReference) 
