@@ -22,6 +22,7 @@ public class ScenesManager : MonoBehaviour
 
     private void Start()
     {
+        print("EEEEOOOOOOO");
         AudioManager.instance.StartMusic();
     }
 

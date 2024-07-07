@@ -18,6 +18,12 @@ public class GameManager : MonoBehaviour
 
     private bool isCurrentQuestSucceed = false;
 
+
+    private void Start()
+    {
+        AudioManager.instance.StartGameMusic();
+    }
+
     private void Update()
     {
         if (isQuestActive && currentQuest.IsTimed())

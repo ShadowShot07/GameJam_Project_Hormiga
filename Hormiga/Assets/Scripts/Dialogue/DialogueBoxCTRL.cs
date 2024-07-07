@@ -136,6 +136,10 @@ public class DialogueBoxCTRL : MonoBehaviour
             dialoguePanel.SetActive(false);
             // Activar movimiento del player de nuevo
             DialogueManager.instance.EnablePlayerMovement();
+            if (currentSuccessPoints >= 2)
+            { 
+                
+            }
         }
     }
 

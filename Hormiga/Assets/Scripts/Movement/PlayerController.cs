@@ -256,7 +256,7 @@ public class PlayerController : MonoBehaviour
 
     private void PlayFootstep()
     {
-        //AudioManager.instance.PlayFootstep();
+        AudioManager.instance.PlayFootstep();
     }
 
     private void PlayCrown()
