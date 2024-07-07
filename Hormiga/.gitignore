@@ -61,11 +61,6 @@ sysinfo.txt
 *.unitypackage
 *.app
 
-# Mac stuff
-.DS_Store
-.bak
-.BAK
-
 # Crashlytics generated file
 crashlytics-build.properties
 
@@ -85,8 +80,6 @@ crashlytics-build.properties
 
 # Ignore the Cache folder since it is updated locally.
 /[Aa]ssets/Plugins/FMOD/Cache/*
-/[Aa]ssets/**/FMODStudioCache.asset
-/[Aa]ssets/**/FMODStudioCache.asset.meta
 
 # Ignore bank files in the StreamingAssets folder.
 /[Aa]ssets/StreamingAssets/**/*.bank
