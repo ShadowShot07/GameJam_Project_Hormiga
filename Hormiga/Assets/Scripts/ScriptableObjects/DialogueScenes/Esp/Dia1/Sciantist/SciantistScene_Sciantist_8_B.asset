@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_8_B
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\"I\xB4m gonna go look for another paper-reader, thanks\u201D"
+  dialogue: "\u201CVoy a buscarme otro lee-papeles, gracias\u201D"
   answers: []
   branchId: B

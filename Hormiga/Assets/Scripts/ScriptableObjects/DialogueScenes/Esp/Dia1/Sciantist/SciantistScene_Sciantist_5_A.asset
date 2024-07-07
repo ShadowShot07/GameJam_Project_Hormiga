@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_5_A
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201COW, MARY, I\xB4M GONNA PISS MYSELF\u201D"
+  dialogue: "\u201CAY, MARI,  QUE ME MEO\u201D"
   answers: []
   branchId: A

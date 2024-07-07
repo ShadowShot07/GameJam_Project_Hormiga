@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Princess_1
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: " \"...Why don\xB4t you read this yourself?\u201C\r"
+  dialogue: " \u201C\xBF...Por qu\xE9 no lo lees t\xFA?\u201C\r"
   answers: []
   branchId: 

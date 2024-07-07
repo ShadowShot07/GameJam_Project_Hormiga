@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SciantistScene_Princess_3
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\r\u201COkay, alright... Just one more\u201C\r"
+  dialogue: "\r\u201CVenga, vale, uno m\xE1s\u201C\r"
   answers:
   - {fileID: 11400000, guid: c22d2c21ea7b26e48a51596748830e45, type: 2}
   - {fileID: 11400000, guid: 5b499126cfea42548887ad00b581517b, type: 2}

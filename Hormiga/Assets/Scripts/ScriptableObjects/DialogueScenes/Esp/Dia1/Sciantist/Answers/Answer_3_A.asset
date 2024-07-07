@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_3_A
   m_EditorClassIdentifier: 
-  answerText: "[Read] \u201CFormaldehyde and casualdehyde\u201C"
+  answerText: "[Leer] \u201CFormaldehido y casualdehido\u201C"
   answerValue: 1

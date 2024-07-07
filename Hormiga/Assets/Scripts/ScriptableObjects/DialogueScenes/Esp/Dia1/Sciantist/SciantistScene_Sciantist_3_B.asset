@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_3_B
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201C...what does it says, fuck?\u201C"
+  dialogue: "\u201C\xBF...qu\xE9 pone, co\xF1o?\u201C"
   answers: []
   branchId: B

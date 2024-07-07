@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_7_B
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201CJust sodium chloride\u201D\r"
+  dialogue: "\u201CS\xF3lo cloruro s\xF3dico, no es para tanto\u201D\r"
   answers: []
   branchId: B

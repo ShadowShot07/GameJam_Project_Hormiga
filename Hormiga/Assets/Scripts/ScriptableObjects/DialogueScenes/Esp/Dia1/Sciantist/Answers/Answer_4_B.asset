@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_4_B
   m_EditorClassIdentifier: 
-  answerText: "[Make her feel bad] \u201CWhat kind of psycotropic sustance did you
-    take for this to be funny\r               to you?\u201D"
+  answerText: "[Hacerla sentir mal] \u201C\xBFQu\xE9 sustancia psicotr\xF3pica te
+    has metido para que esto te haga gracia?\u201D"
   answerValue: 0

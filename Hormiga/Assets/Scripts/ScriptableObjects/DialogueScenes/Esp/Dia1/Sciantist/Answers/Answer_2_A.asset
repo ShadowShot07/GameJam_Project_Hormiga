@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_2_A
   m_EditorClassIdentifier: 
-  answerText: "[Read] \u201CIt says... Polar bear, it\xB4s a meme\u201C"
+  answerText: "[Leer] \u201CPone... Oso polar, es un meme\u201C"
   answerValue: 1

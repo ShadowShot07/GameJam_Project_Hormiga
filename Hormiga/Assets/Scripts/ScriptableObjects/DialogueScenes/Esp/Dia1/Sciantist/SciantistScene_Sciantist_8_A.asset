@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_8_A
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201CYou\xB4re a little funny ant, can I adopt you for future experiments?\u201D\r"
+  dialogue: "\u201CEres una peque\xF1a hormiguita muy divertida, \xBFpuedo adoptarte
+    para futuros experimentos?\u201D\r"
   answers: []
   branchId: A
