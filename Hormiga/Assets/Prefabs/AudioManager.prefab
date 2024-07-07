@@ -45,6 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6d03b130b0cf38438c2b8182d4676a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  masterVolume: 1
+  musicVolume: 1
+  sfxVolume: 1
 --- !u!1 &6565628791433476809
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,6 +99,13 @@ MonoBehaviour:
       Data3: 182723499
       Data4: 1006394657
     Path: event:/main_theme
+  <playGameTheme>k__BackingField:
+    Guid:
+      Data1: 1364082758
+      Data2: 1162002201
+      Data3: -500362859
+      Data4: -1427742005
+    Path: event:/game_theme
   <playFootstep>k__BackingField:
     Guid:
       Data1: 829625710
@@ -105,8 +115,64 @@ MonoBehaviour:
     Path: event:/footsteps
   <playClimbing>k__BackingField:
     Guid:
-      Data1: 1224418590
-      Data2: 1137130450
-      Data3: 778806147
-      Data4: 586437704
-    Path: event:/climb
+      Data1: 908393900
+      Data2: 1307146557
+      Data3: -1790768750
+      Data4: 995224884
+    Path: event:/Climb
+  <playCorona>k__BackingField:
+    Guid:
+      Data1: -1117595342
+      Data2: 1297249551
+      Data3: 100988815
+      Data4: 579249294
+    Path: event:/Corona
+  <playPrincessVoice>k__BackingField:
+    Guid:
+      Data1: -1606585922
+      Data2: 1290059078
+      Data3: 774172305
+      Data4: -1965796714
+    Path: event:/voz_princess
+  <playSciantistVoice>k__BackingField:
+    Guid:
+      Data1: 533345085
+      Data2: 1296332512
+      Data3: 1081935523
+      Data4: -976006264
+    Path: event:/voz_scientist
+  <playTwiceSoldierVoice>k__BackingField:
+    Guid:
+      Data1: -1237364777
+      Data2: 1335119864
+      Data3: -230679907
+      Data4: -1259463699
+    Path: event:/voz_twiceSoldier
+  <playHystericantVoice>k__BackingField:
+    Guid:
+      Data1: 1351758607
+      Data2: 1294761596
+      Data3: -572893005
+      Data4: -321670602
+    Path: event:/voz_hystericant
+  <playWideExoAntVoice>k__BackingField:
+    Guid:
+      Data1: -178263456
+      Data2: 1121040678
+      Data3: 1759784894
+      Data4: 880298659
+    Path: event:/voz_wideExo
+  <playUIAccept>k__BackingField:
+    Guid:
+      Data1: 457391192
+      Data2: 1111183039
+      Data3: 1113590697
+      Data4: 278740513
+    Path: event:/Ui_accept
+  <playUICancel>k__BackingField:
+    Guid:
+      Data1: -1348243739
+      Data2: 1100863254
+      Data3: -1247158082
+      Data4: 1329964090
+    Path: event:/Ui_Cancel

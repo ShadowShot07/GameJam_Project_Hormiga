@@ -37,7 +37,7 @@ public class Npc : MonoBehaviour, IInteractuable
         if (currentInteractionState == InteractionState.DIALOGUE)
         {
             interactImage.SetActive(false);
-            DialogueManager.instance.StartDialogue(npcData.GetNpcDialogue(), transform.position);
+            DialogueManager.instance.StartDialogue(npcData.GetDialogueByLanguage(ScenesManager.instance.CurrentLanguage), transform.position);
             currentInteractionState = InteractionState.NO_INTERACTABLE;
         }
     }
