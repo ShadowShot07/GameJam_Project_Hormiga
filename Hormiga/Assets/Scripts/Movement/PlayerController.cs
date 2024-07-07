@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Velocidad del jugador")]  
     [SerializeField] private float _playerSpeed;
-    [SerializeField] private float _playerSpeedClimb;
+    [SerializeField] public float _playerSpeedClimb;
 
     [Header("Controlador de Suelo")]
     [SerializeField] private Transform _groundController;
@@ -21,9 +21,10 @@ public class PlayerController : MonoBehaviour
     // Opciones Player para moverse
     public Animator _playerAnimator;
     private bool _lookRight = true;
-    private Rigidbody2D _playerRB;
-    private Vector2 _playerDirection;
+    public Rigidbody2D _playerRB;
+    public Vector2 _playerDirection;
     private bool _grounded;
+    private bool _canClimb;
 
     // Inputs del sistema
     private PlayerInput _playerInput;
@@ -63,11 +64,25 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
+        Climb();
+    }
+
+    public void ActionEnable()
+    {
+        _moveAction.Enable();
+    }
+
+    public void ActionDisable()
+    {
+        _moveAction.Disable();
     }
 
     private void InteractuableObject()
     {
         if (_interactionAction.WasPerformedThisFrame() && _interactuableEnRango != null)
+        {
+            _interactuableEnRango.Interactuar(this);
+        }else if (_moveAction.ReadValue<Vector2>().y > 0 && _interactuableEnRango != null) 
         {
             _interactuableEnRango.Interactuar(this);
         }
@@ -162,8 +177,23 @@ public class PlayerController : MonoBehaviour
     {
         if (_grounded) 
         {
-            _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, _playerRB.velocity.y);
+            _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, 0);
             _playerAnimator.SetFloat("Horizontal", MathF.Abs(_playerDirection.x));
+        }
+    }
+
+    private void Climb()
+    {
+        if (_canClimb)
+        {
+            _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, _playerSpeedClimb * _playerDirection.y);
+            _playerAnimator.SetBool("Climb", true);
+            _playerAnimator.SetFloat("Vertical", MathF.Abs(_playerDirection.y));
+        }
+        else
+        {
+            _playerAnimator.SetFloat("Vertical", 0);
+            _playerAnimator.SetBool("Climb", false);
         }
     }
 
@@ -198,6 +228,11 @@ public class PlayerController : MonoBehaviour
         {
             _interactuableEnRango = interactuable;
         }
+
+        if (collision.tag == "Climb")
+        {
+            _canClimb = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -205,6 +240,12 @@ public class PlayerController : MonoBehaviour
         if (collision.TryGetComponent(out IInteractuable interactuable))
         {
             _interactuableEnRango = null;
+        }
+
+        if (collision.tag == "Climb")
+        {
+            _canClimb = false;
+
         }
     }
 }

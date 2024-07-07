@@ -2,16 +2,10 @@ using UnityEngine;
 
 public class ObjectInteract : MonoBehaviour, IInteractuable
 {
-    [SerializeField] public GameObject _object;
-    [SerializeField] private GameObject _canvasObject;
+    [SerializeField] private GameObject _object;
+    [SerializeField] private GameObject _dialogSprite;
 
-    private PlayerController _playerController;
     private bool _isActive;
-
-    private void Awake()
-    {
-        _playerController = FindObjectOfType<PlayerController>();
-    }
 
     public void Interactuar(PlayerController player)
     {
@@ -28,7 +22,7 @@ public class ObjectInteract : MonoBehaviour, IInteractuable
     {
         if (other.gameObject.tag == "Player")
         {
-            ActiveTrueFalse.ActiveTrue(_canvasObject);
+            ActiveTrueFalse.ActiveTrue(_dialogSprite);
             _isActive = true;
         }
     }
@@ -37,7 +31,7 @@ public class ObjectInteract : MonoBehaviour, IInteractuable
     {
         if (other.tag == "Player")
         {
-            ActiveTrueFalse.Activefalse(_canvasObject);
+            ActiveTrueFalse.Activefalse(_dialogSprite);
             _isActive = false;
         }
     }

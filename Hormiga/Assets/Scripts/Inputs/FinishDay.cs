@@ -3,26 +3,25 @@ using UnityEngine;
 public class FinishDay : MonoBehaviour, IInteractuable
 {
     [SerializeField] private GameObject _objectBed;
-    [SerializeField] private GameObject _canvasObject;
+    [SerializeField] private GameObject _dialogSprite;
+    [SerializeField] private GameObject _canvasGoodEnding;
+    [SerializeField] private GameObject _canvasBadEnding;
 
-    private PlayerController _playerController;
-    [SerializeField] private bool _isActive;
+    private bool _isActive;
 
-    private void Awake()
+    public void Interactuar(PlayerController playerController)
     {
-        _playerController = FindObjectOfType<PlayerController>();
-    }
+        if (_isActive)
+        {
 
-    private void PasarDia()
-    {
-        
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
-            ActiveTrueFalse.ActiveTrue(_canvasObject);
+            ActiveTrueFalse.ActiveTrue(_dialogSprite);
             _isActive = true;
         }
     }
@@ -31,13 +30,10 @@ public class FinishDay : MonoBehaviour, IInteractuable
     {
         if (other.tag == "Player")
         {
-            ActiveTrueFalse.Activefalse(_canvasObject);
+            ActiveTrueFalse.Activefalse(_dialogSprite);
             _isActive = false;
         }
     }
 
-    public void Interactuar(PlayerController playerController)
-    {
-        PasarDia();
-    }
+
 }
