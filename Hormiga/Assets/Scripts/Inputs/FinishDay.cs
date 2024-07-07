@@ -1,30 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FinishDay : MonoBehaviour, IInteractuable
 {
-    [SerializeField] public GameObject _objectBed;
-    [SerializeField] private GameObject _canvasObject;
+    [SerializeField] private GameObject _objectBed;
+    [SerializeField] private GameObject _dialogSprite;
+    [SerializeField] private GameObject _canvasGoodEnding;
+    [SerializeField] private GameObject _canvasBadEnding;
 
-    private PlayerController _playerController;
-    [SerializeField] private bool _isActive;
+    private bool _isActive;
 
-    private void Awake()
-    {
-        _playerController = FindObjectOfType<PlayerController>();
-    }
-
-    void Update()
-    {
-        Interactuar();
-    }
-
-    private void PasarDia()
+    public void Interactuar(PlayerController playerController)
     {
         if (_isActive)
         {
-            _playerController.InteractionFinishDayPublic();
+
         }
     }
 
@@ -32,7 +21,7 @@ public class FinishDay : MonoBehaviour, IInteractuable
     {
         if (other.gameObject.tag == "Player")
         {
-            ActiveTrueFalse.ActiveTrue(_canvasObject);
+            ActiveTrueFalse.ActiveTrue(_dialogSprite);
             _isActive = true;
         }
     }
@@ -41,13 +30,10 @@ public class FinishDay : MonoBehaviour, IInteractuable
     {
         if (other.tag == "Player")
         {
-            ActiveTrueFalse.Activefalse(_canvasObject);
+            ActiveTrueFalse.Activefalse(_dialogSprite);
             _isActive = false;
         }
     }
 
-    public void Interactuar()
-    {
-        PasarDia();
-    }
+
 }
