@@ -53,15 +53,7 @@ public class Npc : MonoBehaviour, IInteractuable
                     interactImage.GetComponent<SpriteRenderer>().sprite = interactDialogueImage;
                     interactImage.SetActive(true);
                     break;
-
-                case InteractionState.NO_INTERACTABLE:
-
-                    interactImage.SetActive(false);
-                    break;
-
             }
-            // Ensenya UI de interacción
-            interactImage.SetActive(true);
         }
     }
 

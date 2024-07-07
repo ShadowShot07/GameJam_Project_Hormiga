@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
 
     public Vector3 currentActorPosition;
     public GameObject player;
+    [SerializeField] private PlayerController playerController;
 
     private List<Actors> convincedActors = new List<Actors>();
 
@@ -67,9 +68,25 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueSceneData dialogueScene, Vector3 actorPosition)
     {
+        dialogueBox.gameObject.SetActive(true);
         currentActorPosition = actorPosition;
         dialogueBox.SetDialogueData(dialogueScene);
         // Quitar movimiento player
+        DisablePlayerMovement();
+    }
+
+    public void EndDialogue()
+    {
+        dialogueBox.gameObject.SetActive(false);
+    }
+
+    public void EnablePlayerMovement()
+    {
+        playerController.ActionEnable();
+    }
+    public void DisablePlayerMovement()
+    {
+        playerController.ActionDisable();
     }
 
 }

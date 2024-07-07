@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 
 public class DialogueBoxCTRL : MonoBehaviour
 {
@@ -36,17 +37,20 @@ public class DialogueBoxCTRL : MonoBehaviour
 
     private int currentSuccessPoints = 0;
 
+    EventSystem eventSystem;
+
 
     private void Awake()
     {
         dialoguePanel.SetActive(false);
         answerPanel.SetActive(false);
         inputMap = new Movement();
+        eventSystem = GameObject.FindGameObjectWithTag("EventSystem").GetComponent<EventSystem>();
     }
 
     void Update()
     {
-        if (inputMap.Player.SkipText.WasPressedThisFrame())
+        if (inputMap.Player.SkipText.WasPressedThisFrame() && dialoguePanel.activeInHierarchy)
         {
             if (isReadyForNewLine)
             {
@@ -131,6 +135,7 @@ public class DialogueBoxCTRL : MonoBehaviour
             dialogueStarted = false;
             dialoguePanel.SetActive(false);
             // Activar movimiento del player de nuevo
+            DialogueManager.instance.EnablePlayerMovement();
         }
     }
 
@@ -202,7 +207,10 @@ public class DialogueBoxCTRL : MonoBehaviour
 
 
             // Mostrar respuestas
-            answerPanel.SetActive(true);
+            answerPanel.SetActive(true); 
+            eventSystem.firstSelectedGameObject = answer1Button.gameObject;
+            eventSystem.SetSelectedGameObject(answer1Button.gameObject);
+            eventSystem.sendNavigationEvents = true;
         }
 
         else

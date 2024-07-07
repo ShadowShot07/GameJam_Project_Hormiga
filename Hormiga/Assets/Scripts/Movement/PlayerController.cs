@@ -82,10 +82,11 @@ public class PlayerController : MonoBehaviour
         if (_interactionAction.WasPerformedThisFrame() && _interactuableEnRango != null)
         {
             _interactuableEnRango.Interactuar(this);
-        }else if (_moveAction.ReadValue<Vector2>().y > 0 && _interactuableEnRango != null) 
-        {
-            _interactuableEnRango.Interactuar(this);
         }
+        //else if (_moveAction.ReadValue<Vector2>().y > 0 && _interactuableEnRango != null) 
+        //{
+        //    _interactuableEnRango.Interactuar(this);
+        //}
     }
 
     /*public void InteractionObjectPublic()
@@ -175,11 +176,12 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        if (_grounded) 
-        {
+        if (_grounded)
+        { 
             _playerRB.velocity = new Vector2(_playerDirection.x * _playerSpeed, 0);
             _playerAnimator.SetFloat("Horizontal", MathF.Abs(_playerDirection.x));
         }
+        
     }
 
     private void Climb()
@@ -190,6 +192,7 @@ public class PlayerController : MonoBehaviour
             _playerAnimator.SetBool("Climb", true);
             _playerAnimator.SetFloat("Vertical", MathF.Abs(_playerDirection.y));
         }
+
         else
         {
             _playerAnimator.SetFloat("Vertical", 0);
@@ -232,8 +235,10 @@ public class PlayerController : MonoBehaviour
         if (collision.tag == "Climb")
         {
             _canClimb = true;
+            
         }
     }
+
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -245,7 +250,7 @@ public class PlayerController : MonoBehaviour
         if (collision.tag == "Climb")
         {
             _canClimb = false;
-
+            //_playerRB.gravityScale = 1;
         }
     }
 

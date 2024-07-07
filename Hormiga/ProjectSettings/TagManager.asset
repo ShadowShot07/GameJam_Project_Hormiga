@@ -10,6 +10,8 @@ TagManager:
   - PickUpObject
   - Climb
   - FinishDay
+  - NPC
+  - EventSystem
   layers:
   - Default
   - TransparentFX
