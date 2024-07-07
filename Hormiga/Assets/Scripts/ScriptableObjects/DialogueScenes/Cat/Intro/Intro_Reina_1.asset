@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Intro_Reina_1
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: "*giving a speech to her subjects* \u201CDaughters of mine, you have
-    been convene here today with a mission that is not minor matter, in other words,
-    It\xB4s bigger matter.\""
+  dialogue: "*fent un discurs als seus s\xFAbdits* \"Filles meves, heu estat convocades
+    aqu\xED avui amb una\r\nmissi\xF3 que no \xE9s cosa menor, dit d\u2019una altra
+    manera, \xE9s cosa major."
   answers: []
+  branchId: 

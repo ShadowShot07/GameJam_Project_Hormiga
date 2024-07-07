@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Intro_Reina_8
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: "\"And remember that our ant nest is a great nation and our ants very
-    ants and much ants!\u201D\r"
+  dialogue: "\"I recordeu que el nostre formiguer \xE9s una gran naci\xF3 i les formigues
+    molt formigues i moltes\r\nformigues!\"\r"
   answers: []
   branchId: 

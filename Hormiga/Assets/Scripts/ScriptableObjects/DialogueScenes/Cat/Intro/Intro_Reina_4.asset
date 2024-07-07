@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Intro_Reina_4
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: '.... even a little more of what I
-
-    can if that is possible...'
+  dialogue: "...i una mica m\xE9s del que pugui si \xE9s que aix\xF2 \xE9s possible..."
   answers: []
   branchId: 

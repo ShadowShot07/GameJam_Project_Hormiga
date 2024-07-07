@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Intro_Reina_7
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: "\"I said I would be lowering taxes and I\xB4m raising them, but when
-    worst, better for everyone and when worst for everyone the better, political
-    benefit\"\r\"\r"
+  dialogue: "\"Vaig dir que baixaria els impostos i els estic pujant, per\xF2 quan
+    pitjor millor per tots i\r\nquant pitjor per tots millor, benefici pol\xEDtic.\""
   answers: []
   branchId: 

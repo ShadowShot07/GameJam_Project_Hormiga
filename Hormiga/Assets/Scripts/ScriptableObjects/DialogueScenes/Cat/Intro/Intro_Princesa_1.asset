@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Intro_Princesa_1
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: " *looks at her mother with confussion* \u201CMom...?\u201D\r"
+  dialogue: "*mira a la seva mare amb confusi\xF3* \"Mare...?\"\r"
   answers: []
   branchId: 
