@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_Princess_3
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201COf course not, I can\xB4t be executed in 3 days!\u201D"
+  dialogue: '"Clar que no, no poden executar-me en 3 dies!"'
   answers:
   - {fileID: 11400000, guid: 5cc25cff9c582634d8a41d1b2b25176d, type: 2}
   - {fileID: 11400000, guid: 903635d91ceb6534e940c8f2c2f60320, type: 2}

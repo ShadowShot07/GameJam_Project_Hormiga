@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_6_B
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: " \u201CI should arrest you and execute you right away for that!\u201D"
+  dialogue: "\u201CPer aix\xF2 mateix l'hauria d'aturar i executar ara mateix!"
   answers: []
   branchId: B

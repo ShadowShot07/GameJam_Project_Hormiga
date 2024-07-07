@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_Princess_1
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: " *got out of the royal room, is in one of the nest\xB4s tunnels* \u201CWhat
-    was that...? Why was the speech so strange?\u201D"
+  dialogue: "*ha sortit de la cambra reial, est\xE0 a un dels t\xFAnels del formiguer*
+    \"Que ha estat aix\xF2...? \r             Perqu\xE8 avui el discurs ha estat
+    tant estrany?\""
   answers: []
+  branchId: 

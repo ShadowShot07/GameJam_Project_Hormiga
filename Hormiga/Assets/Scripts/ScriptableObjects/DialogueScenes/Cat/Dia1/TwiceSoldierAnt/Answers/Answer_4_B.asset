@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_4_B
   m_EditorClassIdentifier: 
-  answerText: "[Rude] \u201CThen I\xB4ll kill that stupid queen and you will serve
-    me, your TRUE queen\u201D"
+  answerText: "[Brusca] \u201CDoncs matar\xE9 l'est\xFApida reina i em servir\xE0s
+    a mi, la teva VERITABLE \r                            reina.\""
   answerValue: 0

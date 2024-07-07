@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_9_B
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: " \u201CRemember my words, Princess. You have 3 days until your execution,
-    seize the opportunity wisely.\u201C"
+  dialogue: "\u201CRecordi les meves paraules, Princesa. T\xE9 3 dies abans de la
+    seva \r         execuci\xF3, aprofiti-ho s\xE0viament.\u201C "
   answers: []
   branchId: B
-  isLastDialogue: 0

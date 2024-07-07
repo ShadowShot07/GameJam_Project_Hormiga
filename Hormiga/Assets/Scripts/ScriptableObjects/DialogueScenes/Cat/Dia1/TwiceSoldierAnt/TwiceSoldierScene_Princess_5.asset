@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_Princess_5
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CSoldier soldier... Would you acompany me if I would ask you? I
-    would like to say something\u201C"
+  dialogue: "\u201CSoldat soldat... M'acompanyaria si li demano? M'agradaria proposar-li
+    una cosa\""
   answers: []
   branchId: 

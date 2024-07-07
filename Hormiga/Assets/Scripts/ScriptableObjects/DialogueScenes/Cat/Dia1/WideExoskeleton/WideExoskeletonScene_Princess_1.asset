@@ -15,6 +15,6 @@ MonoBehaviour:
   actorName: 1
   dialogue: 
   answers:
-  - {fileID: 11400000, guid: 6f9650a3dbf7d0a4badc795d0a8fec8a, type: 2}
-  - {fileID: 11400000, guid: 12d45655b0eb72d43a00aaf5fba63c29, type: 2}
+  - {fileID: 11400000, guid: e606b200220743547b2fff2880de76ab, type: 2}
+  - {fileID: 11400000, guid: 8d789c38da66a8744884dd4d18683b21, type: 2}
   branchId: 

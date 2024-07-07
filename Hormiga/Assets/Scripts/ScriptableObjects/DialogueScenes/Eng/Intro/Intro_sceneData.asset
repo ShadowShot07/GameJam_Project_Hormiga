@@ -19,10 +19,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3353fdb90a9751749bd8a19a15659ac2, type: 2}
   - {fileID: 11400000, guid: 3366aae37bb03954081394101b430651, type: 2}
   - {fileID: 11400000, guid: 8a9d37dc28ca9da439a599efb169458b, type: 2}
+  - {fileID: 11400000, guid: b35d62797d3a6b24f9ec8140eac221e0, type: 2}
   - {fileID: 11400000, guid: 53ff20a087fd44f47aa68656b43dd169, type: 2}
   - {fileID: 11400000, guid: d52eae0c907f3784188bf9ba296555b2, type: 2}
   - {fileID: 11400000, guid: e3cb05e5cb827ad4b9cfca3d80d1b792, type: 2}
   - {fileID: 11400000, guid: fdb656f7a1c67f64bbb6112f92e10270, type: 2}
   - {fileID: 11400000, guid: f2d931d2d0636e2418869304b2b19b71, type: 2}
-  sceneDialogues_cast: []
-  sceneDialogues_cat: []

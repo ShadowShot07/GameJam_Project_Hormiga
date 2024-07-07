@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_9_A
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: "\u201CAlright, Princess... Count on me, but it will be our secret. The
-    Queen can\xB4t continue like this and we need a strong leader, I trust you.\u201C"
+  dialogue: "\u201CEst\xE0 b\xE9, Princesa... Compti amb mi, per\xF2 ser\xE0 el nostre
+    secret. La Reina \r                            no pot continuar aix\xED i necessitem
+    una l\xEDder forta, confio en vost\xE8.\u201C"
   answers: []
   branchId: A
-  isLastDialogue: 0
