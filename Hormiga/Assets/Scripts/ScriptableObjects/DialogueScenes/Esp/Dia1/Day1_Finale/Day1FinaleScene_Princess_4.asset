@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_4
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\"I\xB4ve been speaking with these days, I hope to see them at the royal
-    hall    tomorrow\r                 morning\"\r\r          "
+  dialogue: "espero que est\xE9n en el sal\xF3n real por la ma\xF1ana.\r\r          "
   answers: []
   branchId: 

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_Princess_7
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CCould you do something related? Digging new tunnels, for example\u201D\r\r"
+  dialogue: "\u201C\xBFY si haces algo relacionado con ello? Puedes abrir nuevos
+    t\xFAneles, por ejemplo\u201D\r\r"
   answers: []
   branchId: 

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_Princess_3
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201C...I think so\u201D\r"
+  dialogue: "\u201C...Creo que s\xED\u201D\r"
   answers: []
   branchId: 

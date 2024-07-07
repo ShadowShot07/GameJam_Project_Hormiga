@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_3
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\"I\xB4ve already sent letters to all\r                                                   
-    the ants\"\r\r          "
+  dialogue: Ya he enviado cartas a todas las hormigas con las que he hablado hoy
   answers: []
   branchId: 

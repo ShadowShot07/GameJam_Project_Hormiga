@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_1
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CI\xB4m so tired, I should probably go to sleep soon\u201C"
+  dialogue: "\u201C\xBFYa es de noche? No me da tiempo a hablar con ninguna hormiga
+    m\xE1s... Espero que mis esfuerzos hayan sido suficiente...\u201D"
   answers: []
   branchId: 

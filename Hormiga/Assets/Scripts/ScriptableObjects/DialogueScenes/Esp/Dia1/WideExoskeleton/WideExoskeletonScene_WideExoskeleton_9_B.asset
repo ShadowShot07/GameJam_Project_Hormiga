@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_9_B
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201C\r\u201CI like breaking things...\u201D\r\r"
+  dialogue: "\u201CMe gusta romper cosas...\u201D\r\r"
   answers: []
   branchId: B

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_2
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CTomorrow\xB4s the revolution... I hope it works\u201D\r\r          "
+  dialogue: "\u201CMa\xF1ana es la revoluci\xF3n... Espero que funcione.\r\r          "
   answers: []
   branchId: 

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneActor: 1
   sceneDialogues:
-  - {fileID: 11400000, guid: 8af3825612e94f54a9c4bf711cab5832, type: 2}
-  - {fileID: 11400000, guid: ed69b3accbbcef34d9ed869544a9bfe7, type: 2}
-  - {fileID: 11400000, guid: c0a306794ff8f484990f845e41b2a503, type: 2}
-  - {fileID: 11400000, guid: 8e96025e373595c4f9aae09053126fd1, type: 2}
-  - {fileID: 11400000, guid: 858214ab44c9ad14d95d4226800c694e, type: 2}
-  - {fileID: 11400000, guid: 92e0baadebe96544fabc8b2952044175, type: 2}
+  - {fileID: 11400000, guid: e39f6ca9cf8b74840b2d2cada54364d0, type: 2}
+  - {fileID: 11400000, guid: fc1b3b8f1c7469a41aae6b0a54658f39, type: 2}
+  - {fileID: 11400000, guid: 54b81c1ed6566f241a2321b3bd4e785e, type: 2}
+  - {fileID: 11400000, guid: 9902cadf42223ff4ea2b1c1589541478, type: 2}
+  - {fileID: 11400000, guid: 7f17d5ef6145c404095ef756bc9cb745, type: 2}
+  - {fileID: 11400000, guid: b2062880fffb4854e970a106cdf55b51, type: 2}

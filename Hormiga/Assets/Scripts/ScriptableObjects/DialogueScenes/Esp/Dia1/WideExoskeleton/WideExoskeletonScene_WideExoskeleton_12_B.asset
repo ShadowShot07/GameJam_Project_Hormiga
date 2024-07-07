@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_12_B
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CAlthough... It makes me feel worst if you\xB4re only seeing me
-    for my weight...\u201D\r\r"
+  dialogue: "\u201CAunque... Me hace sentir peor si vas a verme solo por lo gorda
+    que estoy...\u201D\r\r"
   answers: []
   branchId: B

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_11
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CWell... It\xB4s the only thing that comes to my mind\u201D\r"
+  dialogue: "\u201CBueno, es lo \xFAnico que se me ocurre\u201D\r"
   answers: []
   branchId: 

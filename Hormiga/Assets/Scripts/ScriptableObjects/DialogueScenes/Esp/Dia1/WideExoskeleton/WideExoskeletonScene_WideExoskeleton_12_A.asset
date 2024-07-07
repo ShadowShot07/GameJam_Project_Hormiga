@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_12_A
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CI heard you\xB4re planing a revolution, call me if you need someone
-    to break\r\nsomething!\u201D\r"
+  dialogue: "\u201CHe o\xEDdo que est\xE1s haciendo una revoluci\xF3n, \xA1ll\xE1mame
+    si necesitas romper cosas!\u201D\r"
   answers: []
   branchId: A

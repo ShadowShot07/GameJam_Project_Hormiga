@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_3
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CYou don\xB4t know who you are...? Sometimes I feel the same. I
-    don\xB4t\r\nknow who I am, everyday\xB4s the same... I feel so useless...\u201D\r"
+  dialogue: "\u201C\xBFNo sabes tu propio nombre? A veces me siento igual... Ya no
+    s\xE9 ni quien soy, todos los d\xEDas son iguales... Me siento tan in\xFAtil...\u201D\r"
   answers: []
   branchId: 
