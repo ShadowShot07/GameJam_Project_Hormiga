@@ -28,6 +28,8 @@ public class DialogueManager : MonoBehaviour
 
     // Cambiar a diccionario con 3 idiomas
     public string[] actorNames_eng = new string[] { "Queen", "The Princess", "NPC Ants", "Twice Soldier Ant", "Hystericant", "Nanny Ant", "Sciantist", "Wide Exoskeleton" };
+    public string[] actorNames_cat = new string[] { "Reina", "Princesa", "Formigues NPC", "Formiga doblement soldat", "Formiga histèrica", "Formiga mainadera", "Formiga 7-ciències", "Formiga amb exoesquelet ample" };
+    public string[] actorNames_esp = new string[] { "Reina", "Princesa", "Hormigas NPC", "Hormiga doblemente soldado", "Hormiga histérica", "Hormiga niñera", "Hormiga 100-tífika", "Hormiga con exoesqueleto ancho" };
 
 
     public static DialogueManager instance { get; private set; }
