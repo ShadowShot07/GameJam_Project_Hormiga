@@ -76,14 +76,14 @@ public class DialogueBoxCTRL : MonoBehaviour
         inputMap.Player.Disable();
     }
 
-    public void SetDialogueData(DialogueSceneData dialogueSceneData, Vector3 origin)
+    public void SetDialogueData(DialogueSceneData dialogueSceneData)
     {
         currentDialogueSceneData = dialogueSceneData;
         if (!currentDialogueSceneData.IsEmpty())
         {
             currentDialogueText = currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetDialogue();
             answers = currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetAnswers();
-            this.transform.position = origin + new Vector3(0f, 10f);
+            
             StartDialogue();
         }
     }
@@ -130,12 +130,18 @@ public class DialogueBoxCTRL : MonoBehaviour
         {
             dialogueStarted = false;
             dialoguePanel.SetActive(false);
+            // Activar movimiento del player de nuevo
         }
     }
 
     private IEnumerator ShowLine()
     {
         actorNameText.text = DialogueManager.instance.actorNames_eng[(int)currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName()];
+
+        Vector3 screenPos = Camera.main.WorldToScreenPoint(GetActorPosition(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName()));
+        Vector3 uiPos = new Vector3(screenPos.x, Screen.height - screenPos.y, screenPos.z);
+        dialoguePanel.transform.position = uiPos;
+
         dialogueTxt.text = string.Empty;
         if (currentDialogueText != null)
         {
@@ -223,5 +229,19 @@ public class DialogueBoxCTRL : MonoBehaviour
         isAnswering = false;
         answerPanel.SetActive(false);
         NextDialogueLine();
+    }
+
+    private Vector3 GetActorPosition(DialogueManager.Actors actor)
+    {
+        if (actor == DialogueManager.Actors.PRINCESS)
+        {
+            print(DialogueManager.instance.player.transform.position);
+            return DialogueManager.instance.player.transform.position - new Vector3(0f, -2f);
+        }
+        else
+        {
+            print(DialogueManager.instance.currentActorPosition);
+            return DialogueManager.instance.currentActorPosition;
+        }
     }
 }

@@ -6,11 +6,10 @@ public class DialogueManager : MonoBehaviour
 {
     [SerializeField] private int currentDialogueScore = 0;
 
-    [SerializeField] private DialogueSceneData dialogueSceneTest;
-
     [SerializeField] private DialogueBoxCTRL dialogueBox;
 
-    private Actors currentActor;
+    public Vector3 currentActorPosition;
+    public GameObject player;
 
     private List<Actors> convincedActors = new List<Actors>();
 
@@ -27,7 +26,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     // Cambiar a diccionario con 3 idiomas
-    public string[] actorNames_eng = new string[] { "Queen", "The Princess", "NPC Ants", "Twice Soldier Ant", "Hystericant", "Nanny Ant", "Sciantist" };
+    public string[] actorNames_eng = new string[] { "Queen", "The Princess", "NPC Ants", "Twice Soldier Ant", "Hystericant", "Nanny Ant", "Sciantist", "Wide Exoskeleton" };
 
 
     public static DialogueManager instance { get; private set; }
@@ -47,6 +46,11 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
     public void AddAnswerValueToDialogueScore(int value)
     {
         currentDialogueScore += value;
@@ -61,18 +65,11 @@ public class DialogueManager : MonoBehaviour
         convincedActors.Add(actor);
     }
 
-    public void StartDialogueTest()
+    public void StartDialogue(DialogueSceneData dialogueScene, Vector3 actorPosition)
     {
-        // PAra testeo solo
-        Vector3 testOrigin = new Vector3(Screen.width / 2, Screen.height / 2);
-        dialogueBox.SetDialogueData(dialogueSceneTest, testOrigin);
-        //
-    }
-
-    public void StartDialogue(DialogueSceneData dialogueScene, Vector3 origin)
-    {
-        currentActor = dialogueScene.GetSceneActor();
-        dialogueBox.SetDialogueData(dialogueScene, origin);
+        currentActorPosition = actorPosition;
+        dialogueBox.SetDialogueData(dialogueScene);
+        // Quitar movimiento player
     }
 
 }
