@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eddd342595f92644e94b96aaba85612f, type: 3}
-  m_Name: Hystericant
+  m_Name: WideExoAnt
   m_EditorClassIdentifier: 
-  npcName: 4
+  npcName: 7
   npcSprite: {fileID: 0}
-  npcDialogue: {fileID: 11400000, guid: c6c2af15f8dfc2e4a9b0381ee025249b, type: 2}
+  npcDialogue: {fileID: 11400000, guid: 9b09e476a8bce414b88b57287777f9a5, type: 2}
