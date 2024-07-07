@@ -20,8 +20,8 @@
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] SoundI::release                          :  (000002465CDC3B58)
-[LOG] SoundI::release                          :     footstep-001 (00000245BAB63208)
+[ERR] assert                                   : assertion: 'gSystemInitCount == 0' failed
+                         :     footstep-001 (00000245BAB63208)
 [LOG] SoundI::release                          :  (000002465CDC3428)
 [LOG] SoundI::release                          :     footstep-002 (00000245BAB63F08)
 [LOG] SoundI::release                          :  (0000024596451C18)
