@@ -29,8 +29,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.403487, y: -0.117501326, z: 1.0907317}
-  m_LocalScale: {x: 0.3783, y: 0.3524, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7027333838701328256}
   m_Father: {fileID: 0}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 905084836833ef84e9dfda967f934ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcData: {fileID: 11400000, guid: a7894ee4624e93544b1e54708db0663b, type: 2}
+  npcData: {fileID: 11400000, guid: 2e73d86ea74f23c4081898b963755e68, type: 2}
   interactDialogueImage: {fileID: 21300000, guid: c30a8dbc2df4af24d88a6e7715418bad, type: 3}
   interactImage: {fileID: 4577723320057609606}
 --- !u!61 &1886384585167549072
@@ -82,7 +82,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -3.0606089}
+  m_Offset: {x: 0.25527382, y: -6.4174957}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -93,7 +93,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 2.1024952}
+  m_Size: {x: 19.700264, y: 3.6096673}
   m_EdgeRadius: 0
 --- !u!212 &6099764419127588276
 SpriteRenderer:
@@ -173,7 +173,7 @@ Transform:
   m_GameObject: {fileID: 4577723320057609606}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.74, y: 3.68, z: 0}
+  m_LocalPosition: {x: 4.6, y: 6.5, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children: []
