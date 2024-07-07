@@ -8,6 +8,8 @@ public class NPC_Data : ScriptableObject
 	[SerializeField] private DialogueManager.Actors npcName;
 	[SerializeField] private Sprite npcSprite;
 	[SerializeField] private DialogueSceneData npcDialogue;
+	[SerializeField] private DialogueSceneData npcDialogueSpanish;
+	[SerializeField] private DialogueSceneData npcDialogueCatala;
 
 
 	public DialogueManager.Actors GetNpcName()
@@ -20,10 +22,24 @@ public class NPC_Data : ScriptableObject
 		return npcSprite;
     }
 
-	public DialogueSceneData GetNpcDialogue()
+	public DialogueSceneData GetDialogueByLanguage(ScenesManager.Language language)
 	{
-		return npcDialogue;
+		if (language == ScenesManager.Language.Español)
+		{
+			return npcDialogueSpanish;
+		} 
+		else if (language == ScenesManager.Language.Ingles)
+		{
+            return npcDialogue;
+
+        } else if (language == ScenesManager.Language.Catala)
+		{
+			return npcDialogueCatala;
+
+        } else
+		{
+			Debug.Log("Lenguaje no Soportado");
+			return null;
+		}
 	}
-
-
 }
