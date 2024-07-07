@@ -141,7 +141,7 @@ public class DialogueBoxCTRL : MonoBehaviour
 
     private IEnumerator ShowLine()
     {
-        actorNameText.text = DialogueManager.instance.actorNames_eng[(int)currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName()];
+        actorNameText.text = DialogueManager.instance.GetActorNameByLanguage(ScenesManager.instance.CurrentLanguage, currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
 
         Vector3 screenPos = Camera.main.WorldToScreenPoint(GetActorPosition(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName()));
         Vector3 uiPos = new Vector3(screenPos.x, Screen.height - screenPos.y, screenPos.z);

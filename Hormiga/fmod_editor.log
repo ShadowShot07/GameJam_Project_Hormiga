@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002460726C618 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000002140C6B4628 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -20,73 +20,6 @@
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[ERR] assert                                   : assertion: 'gSystemInitCount == 0' failed
-                         :     footstep-001 (00000245BAB63208)
-[LOG] SoundI::release                          :  (000002465CDC3428)
-[LOG] SoundI::release                          :     footstep-002 (00000245BAB63F08)
-[LOG] SoundI::release                          :  (0000024596451C18)
-[LOG] SoundI::release                          :     footstep-003 (00000246037E4C18)
-[LOG] SoundI::release                          :  (00000245BAE67AA8)
-[LOG] SoundI::release                          :     footstep-004 (00000246D5F3C248)
-[LOG] SoundI::release                          :  (000002465CDC3CC8)
-[LOG] SoundI::release                          :     footstep-005 (00000246D5F3B888)
-[LOG] SoundI::release                          :  (000002465CDC3598)
-[LOG] SoundI::release                          :     footstep-006 (00000245BAB63D68)
-[LOG] SoundI::release                          :  (000002465CDC3E38)
-[LOG] SoundI::release                          :     footstep-007 (00000246D5F3B208)
-[LOG] SoundI::release                          :  (0000024596451658)
-[LOG] SoundI::release                          :     speech_scientist (00000245BAE66E38)
-[LOG] SoundI::release                          :  (00000245BAE68068)
-[LOG] SoundI::release                          :     speech_hystericant (00000246D5F3B068)
-[LOG] SoundI::release                          :  (0000024602E667D8)
-[LOG] SoundI::release                          :     climb-001 (00000246037E4258)
-[LOG] SoundI::release                          : MadNesst main theme (00000246AE2F5088)
-[LOG] SoundI::release                          :     MadNesst main theme (000002459926E078)
-[LOG] SoundI::release                          :     MadNesst main theme (00000246AE2F7FC8)
-[LOG] SoundI::release                          :  (000002438237DCA8)
-[LOG] SoundI::release                          :     climb-002 (00000245BAB64248)
-[LOG] SoundI::release                          :  (000002465CDC3FA8)
-[LOG] SoundI::release                          :     climb-003 (00000245BAB63548)
-[LOG] SoundI::release                          :  (0000024596451AA8)
-[LOG] SoundI::release                          :     climb-004 (00000246037E4598)
-[LOG] SoundI::release                          :  (00000245BAE67EF8)
-[LOG] SoundI::release                          :     UI_cancel (00000246D5F3B548)
-[LOG] SoundI::release                          :  (000002438237DB38)
-[LOG] SoundI::release                          :     speech_wideExo (00000245BAB648C8)
-[LOG] SoundI::release                          :  (00000245BAE677C8)
-[LOG] SoundI::release                          :     crown (00000246D5F3C8C8)
-[LOG] SoundI::release                          :  (0000024602E66AB8)
-[LOG] SoundI::release                          :     crown_2 (00000245BAB643E8)
-[LOG] SoundI::release                          :  (000002465CDC3878)
-[LOG] SoundI::release                          :     crown_3 (00000245BAB62D28)
-[LOG] SoundI::release                          :  (00000245BAE67938)
-[LOG] SoundI::release                          :     crown_4 (00000246D5F3B3A8)
-[LOG] SoundI::release                          :  (0000024602E66D98)
-[LOG] SoundI::release                          :     crown_5 (00000246037E40B8)
-[LOG] SoundI::release                          :  (000002465CDC32B8)
-[LOG] SoundI::release                          :     crown_6 (00000245BAB62B88)
-[LOG] SoundI::release                          :  (00000245964517C8)
-[LOG] SoundI::release                          :     speech_princess (00000246037E48D8)
-[LOG] SoundI::release                          :  (000002465CDC39E8)
-[LOG] SoundI::release                          :     speech_twiceSoldier (00000246D5F3BD68)
-[LOG] SoundI::release                          :  (000002465CDC3708)
-[LOG] SoundI::release                          :     UI_accept (00000246D5F3BF08)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -94,5 +27,3 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.

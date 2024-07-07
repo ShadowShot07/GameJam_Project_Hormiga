@@ -27,6 +27,9 @@ public class DialogueManager : MonoBehaviour
     }
 
     // Cambiar a diccionario con 3 idiomas
+
+
+
     public string[] actorNames_eng = new string[] { "Queen", "The Princess", "NPC Ants", "Twice Soldier Ant", "Hystericant", "Nanny Ant", "Sciantist", "Wide Exoskeleton" };
     public string[] actorNames_cat = new string[] { "Reina", "Princesa", "Formigues NPC", "Formiga doblement soldat", "Formiga histèrica", "Formiga mainadera", "Formiga 7-ciències", "Formiga amb exoesquelet ample" };
     public string[] actorNames_esp = new string[] { "Reina", "Princesa", "Hormigas NPC", "Hormiga doblemente soldado", "Hormiga histérica", "Hormiga niñera", "Hormiga 100-tífika", "Hormiga con exoesqueleto ancho" };
@@ -67,6 +70,29 @@ public class DialogueManager : MonoBehaviour
     {
         convincedActors.Add(actor);
     }
+
+    public string GetActorNameByLanguage(ScenesManager.Language language, DialogueManager.Actors actor)
+    {
+        if (language == ScenesManager.Language.Español)
+        {
+            return actorNames_esp[(int)actor];
+        }
+        else if (language == ScenesManager.Language.Ingles)
+        {
+            return actorNames_eng[(int)actor];
+
+        }
+        else if (language == ScenesManager.Language.Catala)
+        {
+            return actorNames_cat[(int)actor];
+
+        }
+        else
+        {
+            Debug.Log("Lenguaje no Soportado");
+            return null;
+        }
+    } 
 
     public void StartDialogue(DialogueSceneData dialogueScene, Vector3 actorPosition)
     {
