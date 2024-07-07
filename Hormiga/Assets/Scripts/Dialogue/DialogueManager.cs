@@ -49,6 +49,7 @@ public class DialogueManager : MonoBehaviour
         else
         {
             instance = this;
+            DontDestroyOnLoad(this.gameObject);
         }
     }
 
@@ -57,7 +58,7 @@ public class DialogueManager : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    public void AddAnswerValueToDialogueScore(int value)
+    public void AddConvincedActor(int value)
     {
         currentDialogueScore += value;
         if (currentDialogueScore >= 2)
