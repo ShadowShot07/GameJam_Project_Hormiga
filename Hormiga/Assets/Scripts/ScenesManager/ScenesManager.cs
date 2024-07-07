@@ -20,6 +20,11 @@ public class ScenesManager : MonoBehaviour
         CurrentLanguage = Language.Español;
     }
 
+    private void Start()
+    {
+        AudioManager.instance.StartMusic();
+    }
+
     public enum Scene
     {
         MenuPrincipal,
