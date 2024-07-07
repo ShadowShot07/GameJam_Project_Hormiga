@@ -64,6 +64,42 @@ MonoBehaviour:
   lastModified: 638559248748063796
   FileSizes: []
   Exists: 1
+--- !u!114 &-6262797832960350639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sound/FMODbanks/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638559267431746338
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-3508301778882491938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sound/FMODbanks/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638559267431656362
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-3368066884018152291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,18 +205,138 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -2064046642551363687}
-  - {fileID: -6595898419244498091}
-  - {fileID: -7567227304841039744}
-  - {fileID: -2418393443086287177}
+  - {fileID: 5715649199439927545}
+  - {fileID: 6137977176935881374}
+  - {fileID: -3508301778882491938}
+  - {fileID: -6262797832960350639}
   EditorEvents:
-  - {fileID: -7420053555309878532}
-  - {fileID: -305756888899611850}
-  - {fileID: -3368066884018152291}
+  - {fileID: 2857828791530670743}
+  - {fileID: 2928719743024635756}
+  - {fileID: 4183828297209018651}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -6595898419244498091}
+  - {fileID: 6137977176935881374}
   StringsBanks:
-  - {fileID: -2064046642551363687}
-  cacheTime: 638559248748703592
+  - {fileID: 5715649199439927545}
+  cacheTime: 638559267431746338
   cacheVersion: 131618
+--- !u!114 &2857828791530670743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/main_theme
+  m_EditorClassIdentifier: 
+  Path: event:/main_theme
+  Guid:
+    Data1: -1763374002
+    Data2: 1123024598
+    Data3: 182723499
+    Data4: 1006394657
+  Banks:
+  - {fileID: -3508301778882491938}
+  - {fileID: -6262797832960350639}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 73440
+--- !u!114 &2928719743024635756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/climb
+  m_EditorClassIdentifier: 
+  Path: event:/climb
+  Guid:
+    Data1: 1224418590
+    Data2: 1137130450
+    Data3: 778806147
+    Data4: 586437704
+  Banks:
+  - {fileID: -6262797832960350639}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4609
+--- !u!114 &4183828297209018651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/footsteps
+  Guid:
+    Data1: 829625710
+    Data2: 1263962320
+    Data3: 1550037673
+    Data4: -1723399337
+  Banks:
+  - {fileID: -6262797832960350639}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5715649199439927545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sound/FMODbanks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638559267431526410
+  FileSizes:
+  - Name: 
+    Value: 1010
+  Exists: 1
+--- !u!114 &6137977176935881374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sound/FMODbanks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638559267431516412
+  FileSizes: []
+  Exists: 1
