@@ -52,6 +52,7 @@ public class AudioManager : MonoBehaviour
         else
         {
             instance = this;
+            DontDestroyOnLoad(this.gameObject);
         }
 
         masterBus = RuntimeManager.GetBus("bus:/");

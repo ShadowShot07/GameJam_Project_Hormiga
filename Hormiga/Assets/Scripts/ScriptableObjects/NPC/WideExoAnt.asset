@@ -15,3 +15,5 @@ MonoBehaviour:
   npcName: 7
   npcSprite: {fileID: 0}
   npcDialogue: {fileID: 11400000, guid: 9b09e476a8bce414b88b57287777f9a5, type: 2}
+  npcDialogueSpanish: {fileID: 11400000, guid: 9977c512dbe5d46409bf3db48036c2f9, type: 2}
+  npcDialogueCatala: {fileID: 11400000, guid: 3f4a5ebbb39c0bc40931b72a908e2c20, type: 2}
