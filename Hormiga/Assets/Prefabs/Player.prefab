@@ -31,7 +31,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4919170970014198487}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2358356365327019880
+--- !u!1 &6964178160969453842
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5586665643518242255}
+  - component: {fileID: 1910872492623048170}
   m_Layer: 0
   m_Name: Clamp
   m_TagString: Untagged
@@ -47,13 +47,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5586665643518242255
+--- !u!4 &1910872492623048170
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2358356365327019880}
+  m_GameObject: {fileID: 6964178160969453842}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.22, y: -0.42, z: 0}
@@ -98,7 +98,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5876294149465671524}
-  - {fileID: 5586665643518242255}
+  - {fileID: 1910872492623048170}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7313011907270398788
@@ -234,19 +234,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 6986939486478801110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 905432ead35a6c04eb63d7bb2a688918, type: 3}
+  m_Script: {fileID: 11500000, guid: 0992e6724870c0948b39aa02496f11e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 6986939486478801110}
-  _playerClamp: {fileID: 5586665643518242255}
+  _playerClamp: {fileID: 1910872492623048170}
   _playerSpeed: 5
-  _playerSpeedClimb: 2
+  _playerSpeedClimb: 5
   _groundController: {fileID: 5876294149465671524}
   _groundMask:
     serializedVersion: 2
     m_Bits: 8
-  _boxDimension: {x: 0, y: 0, z: 0}
+  _boxDimension: {x: 0.68, y: 0.12, z: 0}
   _playerAnimator: {fileID: 1093331515362198260}
+  _playerRB: {fileID: 0}
+  _playerDirection: {x: 0, y: 0}
 --- !u!114 &1109291890616137663
 MonoBehaviour:
   m_ObjectHideFlags: 0
