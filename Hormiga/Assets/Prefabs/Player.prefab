@@ -234,19 +234,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 6986939486478801110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0992e6724870c0948b39aa02496f11e8, type: 3}
+  m_Script: {fileID: 11500000, guid: a3382ad8845aec74e9c90b5209f56373, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 6986939486478801110}
-  _playerClamp: {fileID: 1910872492623048170}
-  _playerSpeed: 5
-  _playerSpeedClimb: 5
-  _groundController: {fileID: 5876294149465671524}
+  _player: {fileID: 0}
+  _playerClamp: {fileID: 0}
+  _playerSpeed: 0
+  _playerSpeedClimb: 0
+  _groundController: {fileID: 0}
   _groundMask:
     serializedVersion: 2
-    m_Bits: 8
-  _boxDimension: {x: 0.68, y: 0.12, z: 0}
-  _playerAnimator: {fileID: 1093331515362198260}
+    m_Bits: 0
+  _boxDimension: {x: 0, y: 0, z: 0}
+  _playerAnimator: {fileID: 0}
   _playerRB: {fileID: 0}
   _playerDirection: {x: 0, y: 0}
 --- !u!114 &1109291890616137663
