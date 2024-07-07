@@ -22,7 +22,7 @@ public class ScenesManager : MonoBehaviour
 
     private void Start()
     {
-        print("EEEEOOOOOOO");
+        print("No suena!");
         AudioManager.instance.StartMusic();
     }
 

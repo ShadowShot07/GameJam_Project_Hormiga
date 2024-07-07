@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
-{
+public class QuestManager : MonoBehaviour
+{ 
     public List<GameObject> sceneActors;
 
     [SerializeField] private List<QuestData> sceneQuests;

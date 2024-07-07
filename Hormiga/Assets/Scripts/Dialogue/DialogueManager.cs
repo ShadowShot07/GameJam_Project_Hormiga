@@ -101,21 +101,12 @@ public class DialogueManager : MonoBehaviour
         currentActorPosition = actorPosition;
         dialogueBox.SetDialogueData(dialogueScene);
         // Quitar movimiento player
-        DisablePlayerMovement();
+        GlobalEventSystem.instance.dialogueStarted.Invoke();
+
     }
 
     public void EndDialogue()
     {
         dialogueBox.gameObject.SetActive(false);
     }
-
-    public void EnablePlayerMovement()
-    {
-        playerController.ActionEnable();
-    }
-    public void DisablePlayerMovement()
-    {
-        playerController.ActionDisable();
-    }
-
 }

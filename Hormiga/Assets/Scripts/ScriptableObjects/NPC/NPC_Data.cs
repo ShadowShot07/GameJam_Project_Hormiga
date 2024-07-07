@@ -26,14 +26,17 @@ public class NPC_Data : ScriptableObject
 	{
 		if (language == ScenesManager.Language.Español)
 		{
+			Debug.Log("Español");
 			return npcDialogueSpanish;
 		} 
 		else if (language == ScenesManager.Language.Ingles)
 		{
-            return npcDialogue;
+			Debug.Log("Ingles");
+			return npcDialogue;
 
         } else if (language == ScenesManager.Language.Catala)
 		{
+			Debug.Log("Catala");
 			return npcDialogueCatala;
 
         } else

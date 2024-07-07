@@ -52,6 +52,24 @@ public class PlayerController : MonoBehaviour
         _interactionAction = _playerInput.actions["Action"];
     }
 
+    private void Start()
+    {
+        GlobalEventSystem.instance.dialogueStarted.AddListener(ActionDisable);
+        GlobalEventSystem.instance.dialogueEnded.AddListener(ActionEnable);
+    }
+
+    private void OnEnable()
+    {
+        GlobalEventSystem.instance.dialogueStarted.AddListener(ActionDisable);
+        GlobalEventSystem.instance.dialogueEnded.AddListener(ActionEnable);
+    }
+
+    private void OnDisable()
+    {
+        GlobalEventSystem.instance.dialogueStarted.RemoveListener(ActionDisable);
+        GlobalEventSystem.instance.dialogueEnded.RemoveListener(ActionEnable);
+    }
+
     private void Update()
     {
         _playerDirection = _moveAction.ReadValue<Vector2>();

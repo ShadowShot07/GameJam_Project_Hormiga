@@ -222,15 +222,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 697756956665959392, guid: ccf2c89bf0b907043a65e46ebbff0d1d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 697756956665959392, guid: ccf2c89bf0b907043a65e46ebbff0d1d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 697756956665959392, guid: ccf2c89bf0b907043a65e46ebbff0d1d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 697756956665959392, guid: ccf2c89bf0b907043a65e46ebbff0d1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -670,7 +670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6166464591584380114, guid: 9360c6f86572d7b4e89e7056543336cf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.27172714
+      value: -0.2717271
       objectReference: {fileID: 0}
     - target: {fileID: 6166464591584380114, guid: 9360c6f86572d7b4e89e7056543336cf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -678,15 +678,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6166464591584380114, guid: 9360c6f86572d7b4e89e7056543336cf, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6166464591584380114, guid: 9360c6f86572d7b4e89e7056543336cf, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6166464591584380114, guid: 9360c6f86572d7b4e89e7056543336cf, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6166464591584380114, guid: 9360c6f86572d7b4e89e7056543336cf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1450,9 +1450,9 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 4769550520120924813}
+  - {fileID: 1368247689}
   - {fileID: 1932684644}
   - {fileID: 8258483541302700425}
   - {fileID: 1437598294}
-  - {fileID: 4769550520120924813}
   - {fileID: 6727013712779442504}
-  - {fileID: 1368247689}

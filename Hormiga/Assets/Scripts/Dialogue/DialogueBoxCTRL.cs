@@ -83,6 +83,7 @@ public class DialogueBoxCTRL : MonoBehaviour
     public void SetDialogueData(DialogueSceneData dialogueSceneData)
     {
         currentDialogueSceneData = dialogueSceneData;
+        currentDialogueDataIndex = 0;
         if (!currentDialogueSceneData.IsEmpty())
         {
             currentDialogueText = currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetDialogue();
@@ -97,6 +98,7 @@ public class DialogueBoxCTRL : MonoBehaviour
         dialogueStarted = true;
         isReadyForNewLine = false;
         dialoguePanel.SetActive(true);
+        AudioManager.instance.StartVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
         StartCoroutine(ShowLine());
     }
 
@@ -132,14 +134,12 @@ public class DialogueBoxCTRL : MonoBehaviour
         }
         else// Current dialogue has finished
         {
+            AudioManager.instance.StopVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
             dialogueStarted = false;
             dialoguePanel.SetActive(false);
             // Activar movimiento del player de nuevo
-            DialogueManager.instance.EnablePlayerMovement();
-            if (currentSuccessPoints >= 2)
-            { 
-                
-            }
+            GlobalEventSystem.instance.dialogueEnded.Invoke();
+            
         }
     }
 
@@ -150,6 +150,8 @@ public class DialogueBoxCTRL : MonoBehaviour
         Vector3 screenPos = Camera.main.WorldToScreenPoint(GetActorPosition(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName()));
         Vector3 uiPos = new Vector3(screenPos.x, Screen.height - screenPos.y, screenPos.z);
         dialoguePanel.transform.position = uiPos;
+
+        AudioManager.instance.UnPauseVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
 
         dialogueTxt.text = string.Empty;
         if (currentDialogueText != null)
@@ -167,6 +169,8 @@ public class DialogueBoxCTRL : MonoBehaviour
                 }
                 
             }
+
+            AudioManager.instance.PauseVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
 
             // Comprobar si hay respuestas
             ShowAnswers();
@@ -247,7 +251,7 @@ public class DialogueBoxCTRL : MonoBehaviour
     {
         if (actor == DialogueManager.Actors.PRINCESS)
         {
-            print(DialogueManager.instance.player.transform.position);
+            print(DialogueManager.instance.player.transform.position - new Vector3(0f, -2f));
             return DialogueManager.instance.player.transform.position - new Vector3(0f, -2f);
         }
         else
