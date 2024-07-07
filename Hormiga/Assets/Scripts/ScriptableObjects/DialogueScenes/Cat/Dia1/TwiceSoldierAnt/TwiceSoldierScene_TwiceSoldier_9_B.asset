@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 3
   dialogue: "\u201CRecordi les meves paraules, Princesa. T\xE9 3 dies abans de la
-    seva \r         execuci\xF3, aprofiti-ho s\xE0viament.\u201C "
+    seva \r\nexecuci\xF3, aprofiti-ho s\xE0viament.\u201C"
   answers: []
   branchId: B

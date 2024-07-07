@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 1
   dialogue: "\u201CLlavors parlar\xE9. Crec que la meva mare no \xE9s apta per a
-    aquest regnat i que alg\xFA l'hauria \r                                                      
-    de substituir. Em veig preparada per a aquesta missi\xF3 i la seva ajuda seria
-    de gran rellev\xE0ncia per a \r\nmi...\u201C "
+    aquest regnat i que alg\xFA l'hauria de substituir. Em veig preparada per a aquesta
+    missi\xF3 i la seva ajuda seria de gran rellev\xE0ncia per a \r\nmi...\u201C "
   answers:
   - {fileID: 11400000, guid: 649673e20ce9e174fa11bb08392fcc4e, type: 2}
   - {fileID: 11400000, guid: 83eef46d3a5082241b9aa1bcee8bc77a, type: 2}

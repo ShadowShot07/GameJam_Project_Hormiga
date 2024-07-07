@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 0
   dialogue: "*ignores The Princess and continues* \u201CIn the next few days, we
-    will STOP\r                                 gathering and distributing food,
-    tunnels will be covered around Golden Larva\r\nkindergarten, and about taxes...\"\r"
+    will STOP\r\ngathering and distributing food, tunnels will be covered around
+    Golden Larva\r\nkindergarten, and about taxes... I\r"
   answers: []
   branchId: 

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 0
   dialogue: "\"Vaig dir que baixaria els impostos i els estic pujant, per\xF2 quan
-    pitjor millor per tots i\r\nquant pitjor per tots millor, benefici pol\xEDtic.\""
+    pitjor millor per tots i quant pitjor per tots millor, benefici pol\xEDtic.\""
   answers: []
   branchId: 

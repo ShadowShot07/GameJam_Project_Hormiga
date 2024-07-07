@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 0
   dialogue: "\"I ara la ronda de preguntes de la premsa, per\xF2 no he dormit res,
-    no preguntin massa si us \r                                      plau\"\r"
+    no preguntin massa si us plau\"\r"
   answers: []
   branchId: 

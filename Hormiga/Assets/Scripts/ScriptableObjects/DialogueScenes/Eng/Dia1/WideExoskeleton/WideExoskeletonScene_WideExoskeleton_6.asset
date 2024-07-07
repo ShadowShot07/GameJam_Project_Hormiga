@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_6
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201C\rQueen made me see that all I did was chaos and that I don\xB4t
-    deserve a job... \r\r"
+  dialogue: "Queen made me see that all I did was chaos and that I don\xB4t deserve
+    a job...\r\r"
   answers: []
   branchId: 

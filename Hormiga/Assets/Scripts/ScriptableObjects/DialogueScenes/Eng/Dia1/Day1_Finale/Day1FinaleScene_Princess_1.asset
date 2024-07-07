@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 1
   dialogue: "\"It\xB4s already night? I don\xB4t have time to keep talking with ants...
-    I hope my\r\nefforts are enough...\u201D\r"
+    I hope my efforts are enough...\u201D\r"
   answers: []
   branchId: 

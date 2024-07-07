@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_1
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: "*s\u2019apropa a la princesa* \"Per ordre directa de la reina est\xE0
-    detinguda i el\r\ndivendres ser\xE0 executada, Princesa.\""
+  dialogue: "\"Per ordre directa de la reina est\xE0 detinguda i el divendres ser\xE0
+    executada, Princesa.\""
   answers: []
   branchId: 

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Answer_3_A
   m_EditorClassIdentifier: 
   answerText: "[Conv\xE8ncer] \"Vas jurar la teva vida per la fam\xEDlia reial! Matar-me
-    seria incomplir \r                els teu jurament.\"\r"
+    seria incomplir \r\nels teu jurament.\"\r\r"
   answerValue: 1

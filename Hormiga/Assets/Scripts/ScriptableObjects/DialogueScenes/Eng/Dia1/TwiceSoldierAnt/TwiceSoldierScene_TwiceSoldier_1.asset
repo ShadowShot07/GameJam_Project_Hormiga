@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_1
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: " *gets closer to her* \u201CFor direct order from Her Majesty The Queen,
-    you\xB4re under arrest and will be executed on Friday, Princess\u201D"
+  dialogue: "\u201CFor direct order from Her Majesty The Queen, you\xB4re under arrest
+    and will be executed on Friday, Princess\u201D"
   answers: []
+  branchId: 

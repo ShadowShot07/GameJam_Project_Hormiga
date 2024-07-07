@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HystericAntScene_Hysteric_8_B
   m_EditorClassIdentifier: 
   actorName: 4
-  dialogue: "\"La mEvA... fULLa?\n...................................\u201C "
+  dialogue: "\"La mEvA... fULLa?...................................\u201C "
   answers: []
   branchId: B

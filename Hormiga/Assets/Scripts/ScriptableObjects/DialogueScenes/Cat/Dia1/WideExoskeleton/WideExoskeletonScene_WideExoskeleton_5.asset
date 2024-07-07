@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_5
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CAbans treballava com a ajudant d'obrera... Ara no em\r                                   
-    deixen,"
+  dialogue: "\u201CAbans treballava com a ajudant d'obrera... Ara no em deixen."
   answers: []
   branchId: 

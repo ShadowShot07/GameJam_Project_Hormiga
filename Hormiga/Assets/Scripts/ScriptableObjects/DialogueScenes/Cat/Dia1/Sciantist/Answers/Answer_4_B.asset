@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Answer_4_B
   m_EditorClassIdentifier: 
   answerText: "[Fer-la sentir malament] \u201CQuina subst\xE0ncia psicotr\xF2pica
-    t'has pres perqu\xE8 aix\xF2 et faci \r\ngr\xE0cia?\u201D \r\n"
+    t'has pres perqu\xE8 aix\xF2 et faci \r            gr\xE0cia?\u201D \r\n"
   answerValue: 0

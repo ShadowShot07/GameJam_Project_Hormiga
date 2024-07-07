@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_5
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "En cas que\r\nno estiguin... Haur\xE9 d'acceptar les ordres de la meva
+  dialogue: "En cas que no estiguin... Haur\xE9 d'acceptar les ordres de la meva
     mare i complir el meu c\xE0stig."
   answers: []
   branchId: 

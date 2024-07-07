@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 7
   dialogue: "\u201CYou don\xB4t know who you are...? Sometimes I feel the same. I
-    don\xB4t\r\nknow who I am, everyday\xB4s the same... I feel so useless...\u201D\r"
+    don\xB4t know who I am, everyday\xB4s the same... I feel so useless...\u201D\r"
   answers: []
   branchId: 

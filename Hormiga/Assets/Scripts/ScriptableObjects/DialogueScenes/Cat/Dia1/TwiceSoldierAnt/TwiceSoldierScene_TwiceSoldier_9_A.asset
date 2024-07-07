@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 3
   dialogue: "\u201CEst\xE0 b\xE9, Princesa... Compti amb mi, per\xF2 ser\xE0 el nostre
-    secret. La Reina \r                            no pot continuar aix\xED i necessitem
-    una l\xEDder forta, confio en vost\xE8.\u201C"
+    secret. La Reina \r\nno pot continuar aix\xED i necessitem una l\xEDder forta,
+    confio en vost\xE8.\u201C "
   answers: []
   branchId: A

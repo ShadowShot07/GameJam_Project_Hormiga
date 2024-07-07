@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 7
   dialogue: "\u201CI heard you\xB4re planing a revolution, call me if you need someone
-    to break\r\nsomething!\u201D\r"
+    to break something!\u201D\r"
   answers: []
   branchId: A

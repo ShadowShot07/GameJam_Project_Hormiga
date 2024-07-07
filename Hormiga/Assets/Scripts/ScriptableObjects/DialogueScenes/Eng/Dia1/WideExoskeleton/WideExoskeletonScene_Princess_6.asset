@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 1
   dialogue: "\u201CBut there has to be something that you are better than any other
-    ant...\r\nWhat can you do?\u201D\r"
+    ant... What can you do?\u201D\r"
   answers:
   - {fileID: 11400000, guid: 41795c8fbf084614e912fb5690e7d22b, type: 2}
   - {fileID: 11400000, guid: e86ba18e6651bb24685c66d973951e52, type: 2}

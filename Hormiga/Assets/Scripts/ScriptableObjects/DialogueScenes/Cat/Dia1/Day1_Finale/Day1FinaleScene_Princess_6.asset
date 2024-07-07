@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 1
   dialogue: "Nom\xE9s\r             olia ser una bona reina... Necessito escriure
-    en el meu diari abans de dormir, estic molt\r\nnerviosa.\u201D"
+    en el meu diari abans de dormir, estic molt nerviosa.\u201D"
   answers: []
   branchId: 

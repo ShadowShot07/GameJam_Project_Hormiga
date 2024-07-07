@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 0
   dialogue: "*fent un discurs als seus s\xFAbdits* \"Filles meves, heu estat convocades
-    aqu\xED avui amb una\r                               missi\xF3 que no \xE9s cosa
-    menor, dit d\u2019una altra manera, \xE9s cosa major."
+    aqu\xED avui amb una missi\xF3 que no \xE9s cosa menor, dit d\u2019una altra
+    manera, \xE9s cosa major."
   answers: []
   branchId: 

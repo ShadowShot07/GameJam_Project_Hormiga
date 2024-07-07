@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_3
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: 'Ja he enviat cartes a totes les
-
-    formigues amb les quals he parlat,'
+  dialogue: Ja he enviat cartes a totes les formigues amb les quals he parlat,
   answers: []
   branchId: 

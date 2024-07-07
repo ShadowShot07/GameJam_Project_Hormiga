@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 0
   dialogue: "Necessito la col\xB7laboraci\xF3 de totes i cadascuna de vosaltres per
-    tal que la nostra preciosa naci\xF3 doni\r\nels seus fruits."
+    tal que la nostra preciosa naci\xF3 doni els seus fruits."
   answers: []
   branchId: 
