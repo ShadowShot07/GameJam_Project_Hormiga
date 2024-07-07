@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_3_B
   m_EditorClassIdentifier: 
-  answerText: "[Threat] \u201CI\xB4ll make them bring a magnifying glass to execute
-    you first!\u201D"
+  answerText: "[Amenazar] \u201C\xA1Har\xE9 que traigan una lupa para ejecutarte
+    a t\xED primero!\u201D"
   answerValue: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_4
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: "\u201CI\xB4m just doing my job, while The Queen is alive, she is my
-    lady and her orders are like my own wishes. I MUST do it.\u201D"
+  dialogue: "\u201CSolo hago mi trabajo, mientras la reina siga viva, ella es mi
+    se\xF1ora y sus \xF3rdenes son como mis propios deseos. DEBO hacerlo.\u201D"
   answers: []
   branchId: 

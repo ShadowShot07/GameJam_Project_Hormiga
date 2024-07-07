@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_9_A
   m_EditorClassIdentifier: 
-  answerText: "[Give her the leaf] \u201CSee? Here it is\u201C\r"
+  answerText: "[Darle la hoja] \u201C\xBFVes? Aqu\xED est\xE1\u201C\r"
   answerValue: 1

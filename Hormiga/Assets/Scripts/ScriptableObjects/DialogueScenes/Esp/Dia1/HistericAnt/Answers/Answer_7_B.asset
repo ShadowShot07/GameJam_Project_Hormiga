@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_7_B
   m_EditorClassIdentifier: 
-  answerText: "[Insult] \u201CNot even in the worst revolution someone would want
-    you...\u201C\r"
+  answerText: "[Insultar] \u201CNi en la peor revoluci\xF3n querr\xEDan a alguien
+    como t\xFA...\u201C\r"
   answerValue: 0

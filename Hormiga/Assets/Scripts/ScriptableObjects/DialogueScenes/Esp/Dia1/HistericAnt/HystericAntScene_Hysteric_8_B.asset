@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HystericAntScene_Hysteric_8_B
   m_EditorClassIdentifier: 
   actorName: 4
-  dialogue: "\u201C...................................\u201C *screamer*\r\r\r"
+  dialogue: "\u201C\xBFMi...mI...hOjA? ...................................\u201C\r\r\r"
   answers: []
   branchId: B

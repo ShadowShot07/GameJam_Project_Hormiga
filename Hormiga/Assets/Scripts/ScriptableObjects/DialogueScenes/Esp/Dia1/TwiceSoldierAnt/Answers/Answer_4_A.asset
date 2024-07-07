@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_4_A
   m_EditorClassIdentifier: 
-  answerText: "[Careful] \u201CIf The Queen wasn\xB4t here... Would you follow my
-    lead?\u201D"
+  answerText: "[Cuidadosa] \u201CSi la reina no estuviera... \xBFMe seguir\xEDas
+    a m\xED?\u201D"
   answerValue: 1

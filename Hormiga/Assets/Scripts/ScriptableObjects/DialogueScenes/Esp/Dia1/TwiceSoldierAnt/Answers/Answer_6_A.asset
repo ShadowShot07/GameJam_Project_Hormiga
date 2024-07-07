@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_6_A
   m_EditorClassIdentifier: 
-  answerText: "[Puppy eyes] \u201CWould you help me form a tiny revolution? ...pretty
-    please\u201C. \u201CWould you help me form a tiny revolution? ...pretty please\u201C"
+  answerText: "[Poner ojitos] \u201C\xBFMe ayudar\xEDa a formar una revoluci\xF3n
+    peque\xF1ita? ...porfi\u201C"
   answerValue: 1

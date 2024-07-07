@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_5_B
   m_EditorClassIdentifier: 
-  answerText: "[Ignore] \u201CShut up and listen\u201C\r"
+  answerText: "[Ignorar] \u201CCalla y escucha\u201C\r"
   answerValue: 0

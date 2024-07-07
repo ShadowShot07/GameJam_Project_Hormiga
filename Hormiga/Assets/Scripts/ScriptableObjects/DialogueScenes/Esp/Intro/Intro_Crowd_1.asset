@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Intro_Crowd_1
   m_EditorClassIdentifier: 
   actorName: 2
-  dialogue: "*cheering in ecstasy*\r"
+  dialogue: "*vitorean muy contentas*\r"
   answers: []
   branchId: 

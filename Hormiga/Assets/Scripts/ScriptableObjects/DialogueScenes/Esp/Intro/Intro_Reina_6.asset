@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Intro_Reina_6
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: "*ignores The Princess and continues* \u201CIn the next few days, we
-    will STOP\r                                 gathering and distributing food,
-    tunnels will be covered around Golden Larva\r\nkindergarten, and about taxes...\"\r"
+  dialogue: "*ignora a Princesa y contin\xFAa* \u201CEn estos pr\xF3ximos d\xEDas
+    dejaremos de recoger comida y de repartirla, los t\xFAneles empezar\xE1n a taparse
+    en la zona de la guarder\xEDa Larva Dorada y en cuanto a impuestos...\r"
   answers: []
   branchId: 

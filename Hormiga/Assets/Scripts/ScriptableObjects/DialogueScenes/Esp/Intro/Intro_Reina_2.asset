@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Intro_Reina_2
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: '"I need each and all of you colaborating for our nation to bear fruit"'
+  dialogue: "Necesito la colaboraci\xF3n de todas y cada una de vosotras para que
+    nuestra preciosa naci\xF3n d\xE9 sus frutos."
   answers: []
   branchId: 

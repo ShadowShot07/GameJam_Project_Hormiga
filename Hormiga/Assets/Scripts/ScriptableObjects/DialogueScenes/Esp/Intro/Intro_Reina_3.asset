@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Intro_Reina_3
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: "\"There will be new laws\r                                         in
-    our nest, but don\xB4t you worry because I will do anything I can..."
+  dialogue: "Habr\xE1 nuevas leyes en nuestra colonia, pero no os preocup\xE9is,
+    porque har\xE9 todo lo que pueda..."
   answers: []
   branchId: 

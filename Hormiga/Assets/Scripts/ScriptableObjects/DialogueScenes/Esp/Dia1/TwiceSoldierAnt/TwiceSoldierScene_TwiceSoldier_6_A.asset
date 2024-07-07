@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_6_A
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: " \u201CBut you are right, I would serve you if you result suitable for
-    the kingdom\u201D"
+  dialogue: "\u201CPero tiene raz\xF3n, la seguir\xEDa si resulta apta para el reino\u201D"
   answers: []
   branchId: A

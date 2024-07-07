@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_5_A
   m_EditorClassIdentifier: 
-  answerText: "[Tell the truth] \u201CYou have the leaf on top of your head\u201C"
+  answerText: "[Decir la verdad] \u201CTienes la hoja en la cabeza\u201C"
   answerValue: 1

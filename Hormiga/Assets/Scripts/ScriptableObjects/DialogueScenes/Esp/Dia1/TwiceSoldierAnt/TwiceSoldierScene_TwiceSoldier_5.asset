@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_5
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: "\u201CWhat you\xB4re implying is risky, Princess...\u201C"
+  dialogue: "\u201CLo que insin\xFAa es muy arriesgado, Princesa...\u201C"
   answers: []
   branchId: 

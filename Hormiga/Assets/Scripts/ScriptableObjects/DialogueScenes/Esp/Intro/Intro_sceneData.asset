@@ -14,15 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneActor: 0
   sceneDialogues:
-  - {fileID: 11400000, guid: 0320d0ffe29274c44a7717e97006594f, type: 2}
-  - {fileID: 11400000, guid: 7f98144d86ffc96469bf14f3e4f43e1a, type: 2}
-  - {fileID: 11400000, guid: 3353fdb90a9751749bd8a19a15659ac2, type: 2}
-  - {fileID: 11400000, guid: 3366aae37bb03954081394101b430651, type: 2}
-  - {fileID: 11400000, guid: 8a9d37dc28ca9da439a599efb169458b, type: 2}
-  - {fileID: 11400000, guid: 53ff20a087fd44f47aa68656b43dd169, type: 2}
-  - {fileID: 11400000, guid: d52eae0c907f3784188bf9ba296555b2, type: 2}
-  - {fileID: 11400000, guid: e3cb05e5cb827ad4b9cfca3d80d1b792, type: 2}
-  - {fileID: 11400000, guid: fdb656f7a1c67f64bbb6112f92e10270, type: 2}
-  - {fileID: 11400000, guid: f2d931d2d0636e2418869304b2b19b71, type: 2}
-  sceneDialogues_cast: []
-  sceneDialogues_cat: []
+  - {fileID: 11400000, guid: 6bf8b2c5754d6754e9ce7e1c42e1622a, type: 2}
+  - {fileID: 11400000, guid: 58b14dbfc98a1ae469a08b9f97721981, type: 2}
+  - {fileID: 11400000, guid: ff9ed721854a06c438a7d7c57cc81c31, type: 2}
+  - {fileID: 11400000, guid: f24b32a400b0aae4e8dde431ca77395e, type: 2}
+  - {fileID: 11400000, guid: 012425f451094b4439799766131fb14b, type: 2}
+  - {fileID: 11400000, guid: 64faac47d3a7b1c41b052e582b870532, type: 2}
+  - {fileID: 11400000, guid: 4fc7db76eeb5ac84c90b9e1a49f18fd2, type: 2}
+  - {fileID: 11400000, guid: 0318713b1d46359498487a0d0507fa7d, type: 2}
+  - {fileID: 11400000, guid: 9ae5a0da7a87a0a4d8cf2379d042e527, type: 2}
+  - {fileID: 11400000, guid: 892eeb74b8eb14a4aa21637b6d3321a3, type: 2}
+  - {fileID: 11400000, guid: 3ece61a9ea9ddb541884e8624fff9088, type: 2}

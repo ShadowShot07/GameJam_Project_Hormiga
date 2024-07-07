@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Intro_Reina_5
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: ".... and I\xB4ll do anything possible even impossible if impossible
-    is possible\r\nfor our nation to crown itself at the bottom of the mountain again\"\r"
+  dialogue: "...y har\xE9 todo lo posible incluso lo imposible si lo imposible tambien
+    es posible\r\npara que nuestra naci\xF3n se corone en lo bajo de la monta\xF1a
+    una vez m\xE1s.\"\r"
   answers: []
   branchId: 

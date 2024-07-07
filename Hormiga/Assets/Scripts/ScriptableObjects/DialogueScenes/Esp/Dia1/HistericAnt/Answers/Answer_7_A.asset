@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_7_A
   m_EditorClassIdentifier: 
-  answerText: "[Continue] \u201CI would like to start a revolution... The leaf is
-    on top of your head, by the way\u201C"
+  answerText: "[Continuar] \u201CMe gustar\xEDa empezar una revoluci\xF3n... Por
+    cierto, la hoja est\xE1 en tu cabeza\u201C"
   answerValue: 1

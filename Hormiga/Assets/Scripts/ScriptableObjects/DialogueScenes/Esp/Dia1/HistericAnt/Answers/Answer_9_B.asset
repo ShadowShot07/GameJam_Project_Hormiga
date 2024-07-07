@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_9_B
   m_EditorClassIdentifier: 
-  answerText: "[Eat the leaf] \u201CIt was good, nice leaf\u201C\r"
+  answerText: "[Comerte la hoja] \u201CEstaba rica, buena hoja\u201C\r"
   answerValue: 0

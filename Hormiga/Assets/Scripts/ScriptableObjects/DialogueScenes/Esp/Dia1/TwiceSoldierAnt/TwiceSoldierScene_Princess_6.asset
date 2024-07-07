@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_Princess_6
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CShall I talk then... I don\xB4t think my mother is fit for this
-    reign and that\r\nsomeone should replace her. I see myself worthy for that mission
-    and your help would be of great relevance for me...\u201C"
+  dialogue: "\u201CEntonces hablar\xE9. Creo que mi madre no es apta para este reinado
+    y que alguien deber\xEDa sustituirla. Me veo preparada para esa misi\xF3n y su
+    ayuda ser\xEDa de gran relevancia para m\xED...\u201C"
   answers:
   - {fileID: 11400000, guid: b06868bc6428d0145bfdfbe4c1b4301f, type: 2}
   - {fileID: 11400000, guid: 6a41d383d8791874abee431f5db7b47b, type: 2}

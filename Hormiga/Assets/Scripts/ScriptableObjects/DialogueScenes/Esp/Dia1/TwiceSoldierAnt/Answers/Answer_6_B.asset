@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_6_B
   m_EditorClassIdentifier: 
-  answerText: "[Impose] \u201CWhenever I ask, you will kill my mother, that\xB4s
-    an order.\u201C"
+  answerText: "[Imponer] \u201CCuando lo pida, mate a mi madre, es una orden.\u201C"
   answerValue: 0
