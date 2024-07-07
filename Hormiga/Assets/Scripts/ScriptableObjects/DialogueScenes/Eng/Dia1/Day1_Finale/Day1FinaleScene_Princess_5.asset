@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_5
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\"In case they\xB4re not there... I have no other than accepting my
-    moher\xB4s orders and fulfill the punishment\"\r\r          "
+  dialogue: "In case they\xB4re not there... I have no other than accepting my moher\xB4s
+    orders and fulfill the punishment.\r\r          "
   answers: []
   branchId: 

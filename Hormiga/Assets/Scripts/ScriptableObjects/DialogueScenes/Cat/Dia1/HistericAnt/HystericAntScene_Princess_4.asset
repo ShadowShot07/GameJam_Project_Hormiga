@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HystericAntScene_Princess_4
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CThe leaf you have in your-\u201D\r"
+  dialogue: "\u201CLa fulla que tens a-\u201D\r"
   answers: []
   branchId: 

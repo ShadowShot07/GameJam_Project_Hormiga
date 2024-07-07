@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_6
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\"I just wanted to be a good queen... I need to write in my diary\r                                                                                                        
-    before                                               going to sleep, I\xB4m anxious\"\r          "
+  dialogue: "I just wanted to be a good queen... I need to write in my diary\r                                                                                                        
+    before going to sleep, I\xB4m anxious\"\r          "
   answers: []
   branchId: 

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_5_A
   m_EditorClassIdentifier: 
-  answerText: "[Help] \u201CWe can search a job for you...\u201D"
+  answerText: "[Ajudar] \u201CPodem buscar-te algun treball...\u201D"
   answerValue: 1

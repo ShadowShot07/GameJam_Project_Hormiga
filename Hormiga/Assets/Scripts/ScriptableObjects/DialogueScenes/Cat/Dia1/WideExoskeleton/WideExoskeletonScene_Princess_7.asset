@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_Princess_7
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CCould you do something related? Digging new tunnels, for example\u201D\r\r"
+  dialogue: "\u201CI si fas una cosa relacionada amb aix\xF2? Pots obrir nous t\xFAnels,
+    per exemple\u201D"
   answers: []
   branchId: 

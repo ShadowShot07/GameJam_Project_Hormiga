@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_8_B
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201C\r \u201CEat...? I know I can\xB4t stop eating but I\xB4m not
-    cannibal\u201D\r"
+  dialogue: "\u201CMenjar...? S\xE9 que no puc parar de menjar per\xF2 no soc can\xEDbal\u201D"
   answers: []
   branchId: B

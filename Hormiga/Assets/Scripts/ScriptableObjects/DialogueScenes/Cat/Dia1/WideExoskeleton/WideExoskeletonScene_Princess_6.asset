@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_Princess_6
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CBut there has to be something that you are better than any other
-    ant...\r\nWhat can you do?\u201D\r"
+  dialogue: "\u201CPer\xF2 segur que hi ha alguna cosa que s\xE0pigues fer millor
+    que cap formiga...\r\nQu\xE8 se't dona b\xE9?\u201D\r"
   answers:
   - {fileID: 11400000, guid: b54fc62488a31954b85d614c722dce1d, type: 2}
   - {fileID: 11400000, guid: f24eb29bb40684747a4eeaf63471f75f, type: 2}

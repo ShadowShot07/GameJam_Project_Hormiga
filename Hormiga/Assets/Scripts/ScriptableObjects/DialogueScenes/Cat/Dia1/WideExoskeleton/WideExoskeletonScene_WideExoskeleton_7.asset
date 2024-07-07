@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_7
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201C\r Because a\r                   glass is a glass and a plate
-    is a plate, I can\xB4t be anything else\u201D\r"
+  dialogue: "Perqu\xE8\r             un got \xE9s un got i un plat \xE9s un plat,
+    jo no puc ser una altra cosa\u201D"
   answers: []
   branchId: 

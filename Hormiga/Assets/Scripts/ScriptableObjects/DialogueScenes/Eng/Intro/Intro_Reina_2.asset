@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Intro_Reina_2
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: '"I need each and all of you colaborating for our nation to bear fruit"'
+  dialogue: I need each and all of you colaborating for our nation to bear fruit
   answers: []
   branchId: 

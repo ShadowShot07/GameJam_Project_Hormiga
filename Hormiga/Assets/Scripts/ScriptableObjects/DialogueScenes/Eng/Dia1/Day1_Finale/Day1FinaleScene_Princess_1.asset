@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_1
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CI\xB4m so tired, I should probably go to sleep soon\u201C"
+  dialogue: "\"It\xB4s already night? I don\xB4t have time to keep talking with ants...
+    I hope my\r\nefforts are enough...\u201D\r"
   answers: []
   branchId: 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_4
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\"I\xB4ve been speaking with these days, I hope to see them at the royal
-    hall    tomorrow\r                 morning\"\r\r          "
+  dialogue: "I\xB4ve already sent letters to all\r                                                 
+    the ants I\xB4ve been speaking with these days, "
   answers: []
   branchId: 

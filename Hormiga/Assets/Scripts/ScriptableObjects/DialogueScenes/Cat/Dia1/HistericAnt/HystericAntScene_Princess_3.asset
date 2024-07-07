@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HystericAntScene_Princess_3
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CI wanted to....................... Better leave it\u201D"
+  dialogue: "\u201CVolia proposar....................... Millor deixa-ho\u201D"
   answers: []
   branchId: 

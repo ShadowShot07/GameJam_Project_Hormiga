@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_7_B
   m_EditorClassIdentifier: 
-  answerText: "[Insult] \u201CNot even in the worst revolution someone would want
-    you...\u201C\r"
+  answerText: "[Insultar] \u201CNi en la pitjor revoluci\xF3 voldrien alg\xFA com
+    tu...\u201C "
   answerValue: 0

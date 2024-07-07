@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_5
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CI used to work as Carpenter\xB4s helper... Now they don\xB4t let
-    me\"\r\r"
+  dialogue: "\u201CAbans treballava com a ajudant d'obrera... Ara no em\r                                   
+    deixen,"
   answers: []
   branchId: 

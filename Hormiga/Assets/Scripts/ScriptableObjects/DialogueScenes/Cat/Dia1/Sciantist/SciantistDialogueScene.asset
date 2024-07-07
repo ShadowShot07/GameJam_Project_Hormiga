@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneActor: 6
   sceneDialogues:
-  - {fileID: 11400000, guid: a392e9297ac51674ebe832cc26257434, type: 2}
-  - {fileID: 11400000, guid: e60bd7d62ab3cb647ad427876004b5d8, type: 2}
-  - {fileID: 11400000, guid: 19f813a3e72c9694aad1f57dd14de337, type: 2}
-  - {fileID: 11400000, guid: 255ebcfd638fca24cbadcec57271aa38, type: 2}
-  - {fileID: 11400000, guid: 51db36f1060efff4497cc351a31e03e0, type: 2}
-  - {fileID: 11400000, guid: 1ee15433937514042a2c86fc3d95c1d8, type: 2}
-  - {fileID: 11400000, guid: 39d24feba6d0d9e4aab82bed2dc20a4d, type: 2}
-  - {fileID: 11400000, guid: be2d2d7584565a84bbc56f15c60fa619, type: 2}
-  - {fileID: 11400000, guid: 5315e63359ea61f4fbc20cfda206e936, type: 2}
-  - {fileID: 11400000, guid: 369b2409ba9435a499dc0eebfc2fe08a, type: 2}
-  - {fileID: 11400000, guid: 9bcb3e99f5f9f744fba6973c8785827d, type: 2}
-  - {fileID: 11400000, guid: 4bbaee33a10cded4ca9e7496923a8d3d, type: 2}
-  - {fileID: 11400000, guid: fd1609f8f69c2784481fe253d351b1a8, type: 2}
-  - {fileID: 11400000, guid: ea436d6382f58624b9457c4c5b890b05, type: 2}
-  - {fileID: 11400000, guid: 05015fddf5c7d544a8f5b0bfba9c77ee, type: 2}
-  - {fileID: 11400000, guid: 43d3a0531746e3d4bb28afb53689b57a, type: 2}
+  - {fileID: 11400000, guid: 937cadc1f50a9b44cab1501f40bc44bf, type: 2}
+  - {fileID: 11400000, guid: 32ab323fac027b0489eb7e9d36419d5c, type: 2}
+  - {fileID: 11400000, guid: c98e9c337b510104e8311266994b8a93, type: 2}
+  - {fileID: 11400000, guid: e3b733ff1b8d01847b082661e15e37b3, type: 2}
+  - {fileID: 11400000, guid: c2acdbfa2fc40ee459a2dea10ddb93fe, type: 2}
+  - {fileID: 11400000, guid: 03b35b3ea9021a64eb4c0abe9fd15cea, type: 2}
+  - {fileID: 11400000, guid: 1b9e19aa0d61d494ba9331831a76a027, type: 2}
+  - {fileID: 11400000, guid: fbd9fcb564af88a4c84fbd8033b170ed, type: 2}
+  - {fileID: 11400000, guid: c2733bb78d66ac4438502bb9fb1ccda3, type: 2}
+  - {fileID: 11400000, guid: 8155a7bb297884846977f34dd1844582, type: 2}
+  - {fileID: 11400000, guid: 99449b7199ad0c1489e44d52610946ed, type: 2}
+  - {fileID: 11400000, guid: f4160a21687da1244b7aa456507fc90e, type: 2}
+  - {fileID: 11400000, guid: 1d0765a666d90144c88340eb47241fe7, type: 2}
+  - {fileID: 11400000, guid: e4cf7cfba7fc9924f855161125416118, type: 2}
+  - {fileID: 11400000, guid: ad689470d33a9bc44bc05c3a617dc3c5, type: 2}
+  - {fileID: 11400000, guid: e772bb1d355b190438b775c1f3f29e1a, type: 2}

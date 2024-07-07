@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_6
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201CAnother one, another one\u201D"
+  dialogue: "\u201CUn altre, un altre\u201D"
   answers: []
   branchId: 

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Day1FinaleScene_Princess_1
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CI\xB4m so tired, I should probably go to sleep soon\u201C"
+  dialogue: "\u201CJa \xE9s de nit? No em dona temps a parlar amb cap formiga m\xE9s...
+    Espero que\r\nels meus esfor\xE7os hagin estat suficient...\u201D"
   answers: []
   branchId: 

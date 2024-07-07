@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_2
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CPrincess... Is that your name?\u201D\r"
+  dialogue: "\u201CPrincesa... \xC9s aquest el teu nom?\u201D\r"
   answers: []
   branchId: 

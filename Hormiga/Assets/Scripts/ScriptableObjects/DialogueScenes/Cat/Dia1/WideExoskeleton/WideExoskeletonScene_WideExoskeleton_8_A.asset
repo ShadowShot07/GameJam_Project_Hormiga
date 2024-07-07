@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_8_A
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201C\r\u201CIt would be very kind of you, but I\xB4m not sure how
-    I can be of any help...\u201D\r"
+  dialogue: "\u201CSeria molt amable, per\xF2 no estic segura de ser d'ajuda...\u201D"
   answers: []
   branchId: A

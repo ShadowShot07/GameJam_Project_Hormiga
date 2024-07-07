@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_Princess_4
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CNo... No... Listen, what\xB4s the matter...?\u201D\r\r"
+  dialogue: "\u201CNo... No... Escolta'm, qu\xE8 ocorre...?\u201D\r\r\r"
   answers: []
   branchId: 

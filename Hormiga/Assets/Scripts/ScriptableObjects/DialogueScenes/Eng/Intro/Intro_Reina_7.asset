@@ -15,6 +15,6 @@ MonoBehaviour:
   actorName: 0
   dialogue: "\"I said I would be lowering taxes and I\xB4m raising them, but when
     worst, better for everyone and when worst for everyone the better, political
-    benefit\"\r\"\r"
+    benefit.\r\"\r"
   answers: []
   branchId: 

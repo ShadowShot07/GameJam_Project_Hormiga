@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_5_B
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201CI\xB4m only 19 months old...\u201D"
+  dialogue: "\u201CNom\xE9s tinc 19 mesos...\u201D"
   answers: []
   branchId: B

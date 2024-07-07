@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Intro_Reina_9
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: " \u201CNow, press question round but I didn\xB4t sleep at all, so don\xB4t
+  dialogue: "\u201CNow, press question round but I didn\xB4t sleep at all, so don\xB4t
     ask too much\u201D\r"
   answers: []
   branchId: 

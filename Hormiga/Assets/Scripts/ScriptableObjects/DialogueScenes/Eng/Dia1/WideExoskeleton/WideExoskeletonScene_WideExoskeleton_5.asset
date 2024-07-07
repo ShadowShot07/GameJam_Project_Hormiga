@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 7
   dialogue: "\u201CI used to work as Carpenter\xB4s helper... Now they don\xB4t let
-    me\"\r\r"
+    me.\r\r"
   answers: []
   branchId: 

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_8_A
   m_EditorClassIdentifier: 
-  answerText: "[Optimistic] \u201CIt\xB4s a way to see things, I guess\u201D\r"
+  answerText: "[Optimista] \u201C\xC9s una manera de veure les coses, suposo\u201D\r"
   answerValue: 1

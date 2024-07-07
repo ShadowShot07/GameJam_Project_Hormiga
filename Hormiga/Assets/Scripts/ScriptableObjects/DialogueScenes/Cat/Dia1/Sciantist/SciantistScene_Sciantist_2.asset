@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_2
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201CBecause my glasses are shit and poorly prescripted, what does
-    it say?\u201C"
+  dialogue: "\u201CPerqu\xE8 tinc les ulleres fetes merda i mal graduades, qu\xE8
+    hi posa?\u201D"
   answers: []
   branchId: 

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_7_A
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201C...What\xB4s worst is that even I am older enough for that\u201D\r"
+  dialogue: "\u201C...El pitjor \xE9s que ni tan sols jo s\xF3c tan vella\u201D "
   answers: []
   branchId: A

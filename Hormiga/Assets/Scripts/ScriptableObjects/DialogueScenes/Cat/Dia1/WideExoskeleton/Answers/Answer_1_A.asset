@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_1_A
   m_EditorClassIdentifier: 
-  answerText: "[Kind] \u201CExcuse me... I don\xB4t think we know each other. I\xB4m
-    The Princess\""
+  answerText: "[Amable] \u201CDisculpa... Crec que no ens coneixem. Soc la Princesa\u201D"
   answerValue: 1

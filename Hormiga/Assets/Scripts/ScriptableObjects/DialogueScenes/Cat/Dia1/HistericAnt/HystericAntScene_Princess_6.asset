@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HystericAntScene_Princess_6
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CI wanted to ask something... If you\xB4re not busy\u201D"
+  dialogue: "\u201CVolia preguntar-te una cosa... Si tens temps\u201D"
   answers: []
   branchId: 

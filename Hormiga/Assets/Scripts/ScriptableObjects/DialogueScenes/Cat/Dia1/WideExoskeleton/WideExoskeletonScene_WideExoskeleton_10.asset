@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_10
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201C\r\u201CI can... I can roll and break things!\u201D\r"
+  dialogue: "\u201CPuc... Puc rodar i trencar coses!\u201D\r"
   answers: []
   branchId: 

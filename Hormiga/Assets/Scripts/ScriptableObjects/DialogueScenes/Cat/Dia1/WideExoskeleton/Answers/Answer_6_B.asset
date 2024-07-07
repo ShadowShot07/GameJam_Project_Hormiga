@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_6_B
   m_EditorClassIdentifier: 
-  answerText: "[Doubt] \u201CEven if I don\xB4t think there\xB4s anything... There
-    has to be something... Right?\u201D\r"
+  answerText: "[Dubtar] \u201CEncara que... No crec que hi hagi res... Alguna cosa
+    ha d'haver-hi, no?\u201D\r"
   answerValue: 0

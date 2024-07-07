@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_4
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CI have nothing else to do... I don\xB4t have a job\u201D"
+  dialogue: "\u201CJa no tinc res a fer... No tinc treballo\u201D"
   answers: []
   branchId: 

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_1
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\u201CHey, kiddo, read this to me. What does it say?\u201C"
+  dialogue: "\u201CEscolta, nena, llegeix-me aix\xF2. Qu\xE8 hi posa aqu\xED?"
   answers: []
   branchId: 

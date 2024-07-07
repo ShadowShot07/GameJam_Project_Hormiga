@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ed508a9dbca6846b0e9c4cc9b91fc9, type: 3}
   m_Name: Answer_6_A
   m_EditorClassIdentifier: 
-  answerText: "[Ask about it] \u201CWas being Carpenter\xB4s helper so badl?\u201D\r"
+  answerText: "[Preguntar] \u201CEl treball d'obrera et va ser tan malament?\u201D\r\r"
   answerValue: 1

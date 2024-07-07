@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WideExoskeletonScene_WideExoskeleton_9_A
   m_EditorClassIdentifier: 
   actorName: 7
-  dialogue: "\u201CNo, I was proud of my job\u201D\r\r"
+  dialogue: "\"No, m'agradava bastant\u201D"
   answers: []
   branchId: A

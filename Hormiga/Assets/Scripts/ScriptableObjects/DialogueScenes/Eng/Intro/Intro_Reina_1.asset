@@ -15,5 +15,6 @@ MonoBehaviour:
   actorName: 0
   dialogue: "*giving a speech to her subjects* \u201CDaughters of mine, you have
     been convene here today with a mission that is not minor matter, in other words,
-    It\xB4s bigger matter.\""
+    It\xB4s bigger matter."
   answers: []
+  branchId: 

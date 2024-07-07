@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HystericAntScene_Hysteric_8_A
   m_EditorClassIdentifier: 
   actorName: 4
-  dialogue: "\u201CwE joIN yOouR RevOLutiON :)\u201C\r\r\r\r"
+  dialogue: "\u201C\u201C\xBFMy...mY...lEaF? wE joIN yOouR RevOLutiON :)\u201C\r\r\r\r"
   answers: []
   branchId: A

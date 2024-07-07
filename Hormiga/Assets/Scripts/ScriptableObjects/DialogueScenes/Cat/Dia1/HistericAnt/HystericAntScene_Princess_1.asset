@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HystericAntScene_Princess_1
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CAre you alright...? You\xB4re trembling.\u201D"
+  dialogue: "\u201CEst\xE0s b\xE9...? Est\xE0s tremolant\u201D"
   answers: []
   branchId: 

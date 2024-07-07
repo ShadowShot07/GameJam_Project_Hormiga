@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: HystericAntScene_Princess_8
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CNo, the leaf is in your... Head, there\u201C"
+  dialogue: "\u201CNo, la fulla esta al teu... Cap, aqu\xED\u201C"
   answers: []
   branchId: 

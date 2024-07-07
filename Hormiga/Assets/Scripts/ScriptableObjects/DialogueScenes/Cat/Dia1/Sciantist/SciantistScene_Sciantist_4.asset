@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SciantistScene_Sciantist_4
   m_EditorClassIdentifier: 
   actorName: 6
-  dialogue: "\"I have more papers to read, here\u201C"
+  dialogue: "\u201CTinc m\xE9s papers per llegir, te\u201C "
   answers: []
   branchId: 
