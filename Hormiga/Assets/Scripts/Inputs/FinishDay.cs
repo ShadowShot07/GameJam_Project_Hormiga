@@ -7,13 +7,21 @@ public class FinishDay : MonoBehaviour, IInteractuable
     [SerializeField] private GameObject _canvasGoodEnding;
     [SerializeField] private GameObject _canvasBadEnding;
 
+    private int ganar = 3;
     private bool _isActive;
 
     public void Interactuar(PlayerController playerController)
     {
         if (_isActive)
         {
-
+            if (ganar >= 3)
+            {
+                ActiveTrueFalse.ActiveTrue(_canvasGoodEnding);
+            }
+            else
+            {
+                ActiveTrueFalse.Activefalse(_canvasBadEnding);
+            }
         }
     }
 
