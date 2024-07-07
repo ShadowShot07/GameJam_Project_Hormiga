@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: Intro_Reina_2
   m_EditorClassIdentifier: 
   actorName: 0
-  dialogue: "\"I need each and all of you colaborating for our nation to bear fruit.
-    There will be new laws in our nest, but don\xB4t you worry because I will do
-    anything I can, even a little more of what I can if that is possible and I\xB4ll
-    do anything possible even impossible if impossible is possible\r\nfor our nation
-    to crown itself at the bottom of the mountain again.\u201D"
+  dialogue: '"I need each and all of you colaborating for our nation to bear fruit"'
   answers: []
+  branchId: 
