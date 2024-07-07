@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_Princess_2
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: " \u201CExecuted? \xBFWhat are you talking about?\u201D"
+  dialogue: "\"Executada? De qu\xE8 est\xE0s parlant?\""
   answers: []
+  branchId: 

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_3_B
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: " \u201CGet the magnifying glass up your *******\u201D"
+  dialogue: '"Ja et pots ficar la lupa pel..."'
   answers: []
   branchId: B

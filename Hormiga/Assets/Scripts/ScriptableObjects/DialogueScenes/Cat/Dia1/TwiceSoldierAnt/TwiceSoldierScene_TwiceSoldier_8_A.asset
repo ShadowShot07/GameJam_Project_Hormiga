@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_8_A
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: " \u201CI... Can\xB4t... RESIST!\u201C"
+  dialogue: "\u201CNo... Puc... RESISTIR!\u201D"
   answers: []
   branchId: A

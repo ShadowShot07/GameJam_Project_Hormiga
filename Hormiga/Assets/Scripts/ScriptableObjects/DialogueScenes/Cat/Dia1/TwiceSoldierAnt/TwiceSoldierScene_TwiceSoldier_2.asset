@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_TwiceSoldier_2
   m_EditorClassIdentifier: 
   actorName: 3
-  dialogue: " \u201CYou heared me, Princess, now come with me\u201D"
+  dialogue: "\"Ja m\u2019ha sentit, Princesa, acompanyeu-me.\""
   answers: []
+  branchId: 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TwiceSoldierScene_Princess_4
   m_EditorClassIdentifier: 
   actorName: 1
-  dialogue: "\u201CMust sure is a strong word...\u201D"
+  dialogue: "\"Haver de \xE9s una paraula molt forta...\""
   answers:
   - {fileID: 11400000, guid: 0dc3b5812d977f044b0d90c0cfe0ab2f, type: 2}
   - {fileID: 11400000, guid: 9778f7c919599b34c91c80a566f43cf5, type: 2}
