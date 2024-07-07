@@ -87,16 +87,22 @@ public class UIMainMenu : MonoBehaviour
     private void SpanishLanguage()
     {
         ScenesManager.instance.CurrentLanguage = ScenesManager.Language.Español;
+        _language.text = "Idioma";
+        _sound.text = "Sonido";
     }
 
     private void EnglishLanguage()
     {
         ScenesManager.instance.CurrentLanguage = ScenesManager.Language.Ingles;
+        _language.text = "Language";
+        _sound.text = "Sound";
     }
 
     private void CatalaLanguage()
     {
         ScenesManager.instance.CurrentLanguage = ScenesManager.Language.Catala;
+        _language.text = "Idioma";
+        _sound.text = "So";
     }
 
     private void Listeners()

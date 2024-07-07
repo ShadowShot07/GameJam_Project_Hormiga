@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 6637053374495198756}
   - component: {fileID: 3552114817098807175}
   - component: {fileID: 3634274814742550775}
-  - component: {fileID: 4065563596848742216}
+  - component: {fileID: 4354452456125548610}
   m_Layer: 5
   m_Name: NormalOptions
   m_TagString: Untagged
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4065563596848742216
+--- !u!114 &4354452456125548610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -311,8 +311,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _backToGame: {fileID: 7785426187963895643}
+  _backToMainMenu: {fileID: 2152729773115295365}
   _exitToGame: {fileID: 1811151575771231404}
   _optionMenu: {fileID: 6845918713870600891}
+  _spanishbutton: {fileID: 7613983263673284516}
+  _Englishbutton: {fileID: 404119309584026869}
+  _Catalahbutton: {fileID: 3309933291971634962}
+  _language: {fileID: 7223915999798682454}
+  _sound: {fileID: 6143072784498838990}
 --- !u!1 &1987245902265119600
 GameObject:
   m_ObjectHideFlags: 0
