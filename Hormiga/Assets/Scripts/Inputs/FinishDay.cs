@@ -15,16 +15,11 @@ public class FinishDay : MonoBehaviour, IInteractuable
         _playerController = FindObjectOfType<PlayerController>();
     }
 
-    void Update()
-    {
-        Interactuar();
-    }
-
     private void PasarDia()
     {
         if (_isActive)
         {
-            _playerController.InteractionFinishDayPublic();
+           // _playerController.InteractionFinishDayPublic();
         }
     }
 
@@ -46,7 +41,7 @@ public class FinishDay : MonoBehaviour, IInteractuable
         }
     }
 
-    public void Interactuar()
+    public void Interactuar(PlayerController player)
     {
         PasarDia();
     }

@@ -13,16 +13,11 @@ public class ObjectInteract : MonoBehaviour, IInteractuable
         _playerController = FindObjectOfType<PlayerController>();
     }
 
-    void Update()
-    {
-        Interactuar();
-    }
-
     private void CogerObjeto()
     {
         if (_isActive)
         {
-            _playerController.InteractionObjectPublic();
+            //_playerController.InteractionObjectPublic();
 
             if (_object.tag == "PickUpObject")
             {
@@ -35,7 +30,7 @@ public class ObjectInteract : MonoBehaviour, IInteractuable
     {
         if (_isActive)
         {
-            _playerController.InteractionObjectPublic();
+            //_playerController.InteractionObjectPublic();
 
             if ( _object.tag == "InteractiveObject")
             {
@@ -62,7 +57,7 @@ public class ObjectInteract : MonoBehaviour, IInteractuable
         }
     }
 
-    public void Interactuar()
+    public void Interactuar(PlayerController player)
     {
         CogerObjeto();
         SoltarObjecto();

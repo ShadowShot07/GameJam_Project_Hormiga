@@ -17,6 +17,7 @@ public class Npc : MonoBehaviour, IInteractuable
     {
         DIALOGUE,
         QUEST,
+        NO_INTERACTABLE
 
     }
 
@@ -31,9 +32,14 @@ public class Npc : MonoBehaviour, IInteractuable
         spriteRenderer = GetComponent<SpriteRenderer>();
         npcCollider = GetComponent<BoxCollider2D>();
     }
-    public void Interactuar()
+    public void Interactuar(PlayerController player)
     {
-        print("INTERACTUO");
+        if (currentInteractionState == InteractionState.DIALOGUE)
+        {
+            interactImage.SetActive(false);
+            DialogueManager.instance.StartDialogue(npcData.GetNpcDialogue(), transform.position);
+            currentInteractionState = InteractionState.NO_INTERACTABLE;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -45,8 +51,14 @@ public class Npc : MonoBehaviour, IInteractuable
                 case InteractionState.DIALOGUE:
 
                     interactImage.GetComponent<SpriteRenderer>().sprite = interactDialogueImage;
+                    interactImage.SetActive(true);
                     break;
-                
+
+                case InteractionState.NO_INTERACTABLE:
+
+                    interactImage.SetActive(false);
+                    break;
+
             }
             // Ensenya UI de interacción
             interactImage.SetActive(true);
