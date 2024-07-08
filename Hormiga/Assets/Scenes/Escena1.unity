@@ -767,19 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 1634758949}
     - target: {fileID: 6028113765609508213, guid: 24fcc9bace7fa9a4896ecd0f4efccb75, type: 3}
       propertyPath: offset.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6028113765609508213, guid: 24fcc9bace7fa9a4896ecd0f4efccb75, type: 3}
-      propertyPath: minDistance
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6028113765609508213, guid: 24fcc9bace7fa9a4896ecd0f4efccb75, type: 3}
-      propertyPath: followDistance
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6028113765609508213, guid: 24fcc9bace7fa9a4896ecd0f4efccb75, type: 3}
-      propertyPath: interpVelocity
-      value: 50
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1942,18 +1930,6 @@ PrefabInstance:
       value: NPC_Hystericant
       objectReference: {fileID: 0}
     - target: {fileID: 7125497993964643336, guid: 6b8144ce37ad35b4b915216fa2891694, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7125497993964643336, guid: 6b8144ce37ad35b4b915216fa2891694, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7125497993964643336, guid: 6b8144ce37ad35b4b915216fa2891694, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7125497993964643336, guid: 6b8144ce37ad35b4b915216fa2891694, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.08
       objectReference: {fileID: 0}
@@ -2064,8 +2040,8 @@ MonoBehaviour:
   m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: 2d1c115cc5186e64c8695011e539e3f0, type: 3}
   m_PointAction: {fileID: 0}
-  m_MoveAction: {fileID: -8821212705589038278, guid: 2d1c115cc5186e64c8695011e539e3f0, type: 3}
-  m_SubmitAction: {fileID: -6392166116727292041, guid: 2d1c115cc5186e64c8695011e539e3f0, type: 3}
+  m_MoveAction: {fileID: 3710738434707379630, guid: 2d1c115cc5186e64c8695011e539e3f0, type: 3}
+  m_SubmitAction: {fileID: 2064916234097673511, guid: 2d1c115cc5186e64c8695011e539e3f0, type: 3}
   m_CancelAction: {fileID: -5285484905533736667, guid: 2d1c115cc5186e64c8695011e539e3f0, type: 3}
   m_LeftClickAction: {fileID: 0}
   m_MiddleClickAction: {fileID: 0}
@@ -3179,10 +3155,6 @@ PrefabInstance:
     - target: {fileID: 3587846875708388779, guid: c052dc20d6f34e3448e6bbecb84fc8c6, type: 3}
       propertyPath: m_Name
       value: DialogueBox
-      objectReference: {fileID: 0}
-    - target: {fileID: 3587846875708388779, guid: c052dc20d6f34e3448e6bbecb84fc8c6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9090614853136229304, guid: c052dc20d6f34e3448e6bbecb84fc8c6, type: 3}
       propertyPath: m_Pivot.x
@@ -121038,18 +121010,6 @@ PrefabInstance:
       value: NPC_TwiceSoldierAnt
       objectReference: {fileID: 0}
     - target: {fileID: 7125497993964643336, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 7125497993964643336, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 7125497993964643336, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 7125497993964643336, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.24
       objectReference: {fileID: 0}
@@ -121088,10 +121048,6 @@ PrefabInstance:
     - target: {fileID: 7125497993964643336, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7125497993964643336, guid: 43a9f4c49f50f2347be6db641f8ce471, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

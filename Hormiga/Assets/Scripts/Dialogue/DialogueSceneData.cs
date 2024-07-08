@@ -28,10 +28,10 @@ public class DialogueSceneData : ScriptableObject
         }
     }
 
-    public DialogueData GetConclusionDialogue(int succesPoints)
+    public DialogueData GetConclusionDialogue(int succesPoints, int possibleSuccesPoints)
     {
         DialogueData lastDialogue = CreateInstance("DialogueData") as DialogueData;
-        if (succesPoints >= 2)
+        if (succesPoints > possibleSuccesPoints/2)
         {
             for (int i=sceneDialogues.Count-2; i < sceneDialogues.Count; i++)
             {
@@ -65,6 +65,11 @@ public class DialogueSceneData : ScriptableObject
         {
             return true;
         }
+    }
+
+    public List<DialogueData> GetAllceneDialogues()
+    {
+        return sceneDialogues;
     }
 
     public int DialogueCount()

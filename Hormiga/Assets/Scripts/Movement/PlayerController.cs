@@ -60,8 +60,8 @@ public class PlayerController : MonoBehaviour
 
     private void OnEnable()
     {
-        GlobalEventSystem.instance.dialogueStarted.AddListener(ActionDisable);
-        GlobalEventSystem.instance.dialogueEnded.AddListener(ActionEnable);
+        //GlobalEventSystem.instance.dialogueStarted.AddListener(ActionDisable);
+        //GlobalEventSystem.instance.dialogueEnded.AddListener(ActionEnable);
     }
 
     private void OnDisable()

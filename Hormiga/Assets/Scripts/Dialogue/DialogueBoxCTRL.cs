@@ -19,6 +19,8 @@ public class DialogueBoxCTRL : MonoBehaviour
 
     private DialogueSceneData currentDialogueSceneData;
 
+    private List<DialogueManager.Actors> activeDialogueActors = new List<DialogueManager.Actors>();
+
     private string currentDialogueText;
     
     private List<DialogueAnswerData> answers;
@@ -35,6 +37,7 @@ public class DialogueBoxCTRL : MonoBehaviour
 
     private string lastBranchId;
 
+    private int posibleSuccesPoints;
     private int currentSuccessPoints = 0;
 
     EventSystem eventSystem;
@@ -49,7 +52,7 @@ public class DialogueBoxCTRL : MonoBehaviour
     }
 
     void Update()
-    {
+    {        
         if (inputMap.Player.SkipText.WasPressedThisFrame() && dialoguePanel.activeInHierarchy)
         {
             if (isReadyForNewLine)
@@ -61,6 +64,7 @@ public class DialogueBoxCTRL : MonoBehaviour
             {
                 if (!isAnswering)
                 {
+                    AudioManager.instance.PauseVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
                     StopAllCoroutines();
                     dialogueTxt.text = currentDialogueText;
                     ShowAnswers();
@@ -88,9 +92,24 @@ public class DialogueBoxCTRL : MonoBehaviour
         {
             currentDialogueText = currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetDialogue();
             answers = currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetAnswers();
-            
+            posibleSuccesPoints = AnswersInScene(currentDialogueSceneData);
+
             StartDialogue();
         }
+    }
+
+    private int AnswersInScene(DialogueSceneData dialogueSceneData)
+    {
+        int count = 0;
+        foreach (DialogueData dialogue in dialogueSceneData.GetAllceneDialogues())
+        {
+            if (dialogue.GetAnswers().Count > 0)
+            {
+                count++;
+            }
+        }
+
+        return count;
     }
 
     private void StartDialogue()
@@ -98,21 +117,24 @@ public class DialogueBoxCTRL : MonoBehaviour
         dialogueStarted = true;
         isReadyForNewLine = false;
         dialoguePanel.SetActive(true);
-        AudioManager.instance.StartVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
         StartCoroutine(ShowLine());
     }
 
     private void NextDialogueLine()
     {
-        isReadyForNewLine = false;
+         isReadyForNewLine = false;
         currentDialogueDataIndex++;
-        if (currentDialogueDataIndex < currentDialogueSceneData.DialogueCount() - 3) //Current dialogue hasn't got conclusion dialogues
+        if (currentDialogueDataIndex < currentDialogueSceneData.DialogueCount() - 2) //Current dialogue hasn't got conclusion dialogues
         {
             if (lastBranchId != "")
             {
                 if (currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetBranchId() != lastBranchId && currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetBranchId() != "")
                 {
                     currentDialogueDataIndex++;
+                }
+                else if (lastBranchId == currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetBranchId())
+                {
+                    lastBranchId = "";
                 }
             }
             else
@@ -126,15 +148,20 @@ public class DialogueBoxCTRL : MonoBehaviour
             answers = currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetAnswers();
             StartCoroutine(ShowLine());
         }
-        else if (currentDialogueDataIndex >= currentDialogueSceneData.DialogueCount() - 3 && !isLastDialogue)
+        else if (currentDialogueDataIndex >= currentDialogueSceneData.DialogueCount() - 2 && !isLastDialogue)
         {
             isLastDialogue = true;
-            currentDialogueText = currentDialogueSceneData.GetConclusionDialogue(currentSuccessPoints).GetDialogue();
+            currentDialogueText = currentDialogueSceneData.GetConclusionDialogue(currentSuccessPoints, posibleSuccesPoints).GetDialogue();
             StartCoroutine(ShowLine()); 
         }
         else// Current dialogue has finished
         {
-            AudioManager.instance.StopVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
+            foreach (DialogueManager.Actors actor in activeDialogueActors)
+            {
+                AudioManager.instance.StopVoice(actor);
+            }
+            activeDialogueActors.Clear();
+
             dialogueStarted = false;
             dialoguePanel.SetActive(false);
             // Activar movimiento del player de nuevo
@@ -145,14 +172,23 @@ public class DialogueBoxCTRL : MonoBehaviour
 
     private IEnumerator ShowLine()
     {
+        
         actorNameText.text = DialogueManager.instance.GetActorNameByLanguage(ScenesManager.instance.CurrentLanguage, currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
 
         Vector3 screenPos = Camera.main.WorldToScreenPoint(GetActorPosition(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName()));
         Vector3 uiPos = new Vector3(screenPos.x, Screen.height - screenPos.y, screenPos.z);
         dialoguePanel.transform.position = uiPos;
 
-        AudioManager.instance.UnPauseVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
-
+        if (activeDialogueActors.Contains(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName()))
+        {
+            AudioManager.instance.UnPauseVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
+        }
+        else 
+        {
+            AudioManager.instance.StartVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
+            activeDialogueActors.Add(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
+        }
+        //isAnswering = false;
         dialogueTxt.text = string.Empty;
         if (currentDialogueText != null)
         {
@@ -184,6 +220,7 @@ public class DialogueBoxCTRL : MonoBehaviour
 
     private void ShowAnswers()
     {
+        //AudioManager.instance.PauseVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
         if (answers.Count > 0)
         {
             isAnswering = true;
@@ -223,9 +260,10 @@ public class DialogueBoxCTRL : MonoBehaviour
 
         else
         {
+            AudioManager.instance.PauseVoice(currentDialogueSceneData.GetSceneDialogue(currentDialogueDataIndex).GetActorName());
             // Siguiente DialogueData
             isReadyForNewLine = true;
-            lastBranchId = "";
+            //lastBranchId = "";
         }
     }
 
