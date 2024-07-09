@@ -20,12 +20,6 @@ public class ScenesManager : MonoBehaviour
         CurrentLanguage = Language.Español;
     }
 
-    private void Start()
-    {
-        print("No suena!");
-        AudioManager.instance.StartMusic();
-    }
-
     public enum Scene
     {
         MenuPrincipal,

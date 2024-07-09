@@ -19,6 +19,7 @@ public class AudioManager : MonoBehaviour
     private EventInstance uiAccept;
     private EventInstance uiCancel;
 
+
     [Header("Volume")]
     [Range(0, 1)]
     public float masterVolume = 1f;
@@ -58,9 +59,11 @@ public class AudioManager : MonoBehaviour
         masterBus = RuntimeManager.GetBus("bus:/");
         musicBus = RuntimeManager.GetBus("bus:/Music");
         sfxBus = RuntimeManager.GetBus("bus:/SFX");
+
+        CreateInstances();
     }
 
-    private void Start()
+    private void CreateInstances()
     {
         mainTheme = CreateEventInstance(FmodEvents.instance.playMainTheme);
         footsteps = CreateEventInstance(FmodEvents.instance.playFootstep);
@@ -218,7 +221,6 @@ public class AudioManager : MonoBehaviour
                 voice_wideExoAnt.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 break;
         }
-        gameTheme.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }
 
     public void PlayFootstep()

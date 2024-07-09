@@ -55,6 +55,7 @@ public class FmodEvents : MonoBehaviour
         else
         {
             instance = this;
+            DontDestroyOnLoad(this.gameObject);
         }
     }
 }

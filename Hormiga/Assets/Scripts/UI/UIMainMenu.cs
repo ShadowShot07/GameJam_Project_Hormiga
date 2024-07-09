@@ -36,6 +36,8 @@ public class UIMainMenu : MonoBehaviour
         ActiveTrueFalse.Activefalse(_menuCredits);
         ActiveTrueFalse.Activefalse(_exitPanel);
         Listeners();
+
+        AudioManager.instance.StartMusic();
     }
 
     private void StartGame()
