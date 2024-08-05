@@ -119654,6 +119654,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 905710425613234946, guid: 3bd6a820e690af243a7bde7893921458, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4353726302336265884, guid: 3bd6a820e690af243a7bde7893921458, type: 3}
+      propertyPath: _playerRB
+      value: 
+      objectReference: {fileID: 1634758954}
     - target: {fileID: 4919170970014198487, guid: 3bd6a820e690af243a7bde7893921458, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6
@@ -119699,13 +119707,19 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 339700377210873461, guid: 3bd6a820e690af243a7bde7893921458, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd6a820e690af243a7bde7893921458, type: 3}
 --- !u!1 &1634758949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6986939486478801110, guid: 3bd6a820e690af243a7bde7893921458, type: 3}
+  m_PrefabInstance: {fileID: 1634758948}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1634758954 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 905710425613234946, guid: 3bd6a820e690af243a7bde7893921458, type: 3}
   m_PrefabInstance: {fileID: 1634758948}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1641720962
